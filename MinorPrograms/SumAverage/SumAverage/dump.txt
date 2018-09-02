@@ -1,0 +1,15 @@
+Shady Boukhary
+Dr. StringFellow
+September 5th, 2018
+CMPS 4143: Contemporary Programming Languages
+Welcome to Integer Adder
+
+
+Please enter the 1st integer: 20
+Please enter the 2nd integer: 80
+Please enter the 3rd integer: 13
+
+The sum is 113.
+The average is 37.
+The smallest number is 13.
+The largest number is 80.
