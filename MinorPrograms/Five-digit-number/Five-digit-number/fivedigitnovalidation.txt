@@ -1,8 +1,0 @@
-Enter a 5-digit number: 65345
-Digits: 6   5   3   4   5
-
-Run again? (Y/N): y
-Enter a 5-digit number: 23573
-Digits: 2   3   5   7   3
-
-Run again? (Y/N): n
