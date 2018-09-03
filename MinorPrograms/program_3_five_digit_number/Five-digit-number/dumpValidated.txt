@@ -1,0 +1,16 @@
+Shady Boukhary
+Dr. StringFellow
+September 5th, 2018
+CMPS 4143: Contemporary Programming Languages
+Welcome to Five Digit Integer Program
+
+
+Enter a number: 124
+1   2   4
+Run again? (Y/N): y
+Enter a number: 632245653
+6   3   2   2   4   5   6   5   3
+Run again? (Y/N): y
+Enter a number: 12345
+1   2   3   4   5
+Run again? (Y/N): n
