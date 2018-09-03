@@ -1,14 +1,14 @@
 MinorPrograms/program_2_sum_average_min_max/*.vs
-MinorPrograms/program_2_sum_average_min_max/*.csproj
+MinorPrograms/program_2_sum_average_min_max/SumAverage/*.csproj
 MinorPrograms/program_2_sum_average_min_max/*.sln
-MinorPrograms/program_2_sum_average_min_max/*.config
+MinorPrograms/program_2_sum_average_min_max/SumAverage/*.config
 MinorPrograms/program_2_sum_average_min_max/.vs/
 MinorPrograms/program_2_sum_average_min_max/SumAverage/Properties
 
 MinorPrograms/program_3_five_digit_number/*.vs
-MinorPrograms/program_3_five_digit_number/*.csproj
+MinorPrograms/program_3_five_digit_number/FiveDigitNumberNoValidation/*.csproj
 MinorPrograms/program_3_five_digit_number/*.sln
-MinorPrograms/program_3_five_digit_number/*.config
+MinorPrograms/program_3_five_digit_number/FiveDigitNumberNoValidation/*.config
 MinorPrograms/program_3_five_digit_number/.vs/
 MinorPrograms/program_3_five_digit_number/Five-digit-number/Properties
 
