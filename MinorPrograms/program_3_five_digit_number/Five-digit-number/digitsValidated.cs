@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace FiveDigitsValidated
 {
-    class Program
+    class digitsValidated
     {
         static void Main(string[] args)
         {
@@ -68,9 +68,9 @@ namespace FiveDigitsValidated
             int x;
             String res = Console.ReadLine();
 
-            while (!Int32.TryParse(res, out x))
+            while (!Int32.TryParse(res, out x) || res.Length > 5)
             {
-                Console.WriteLine("Not a valid integer. Try again.");
+                Console.WriteLine("Not a valid integer or is longer than 5 digits. Try again.");
                 res = Console.ReadLine();
             }
             return x;
