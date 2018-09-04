@@ -1,8 +1,19 @@
-Enter a 5-digit number: 65345
-Digits: 6   5   3   4   5
+Shady Boukhary
+Dr. StringFellow
+September 5th, 2018
+CMPS 4143: Contemporary Programming Languages
+Welcome to Five Digit Integer Program
+
+
+Enter a 5-digit number: 12345
+Digits: 1   2   3   4   5
 
 Run again? (Y/N): y
-Enter a 5-digit number: 23573
-Digits: 2   3   5   7   3
+Enter a 5-digit number: 123
+Digits: 0   0   1   2   3
+
+Run again? (Y/N): y
+Enter a 5-digit number: 1234567
+Digits: 3   4   5   6   7
 
 Run again? (Y/N): n

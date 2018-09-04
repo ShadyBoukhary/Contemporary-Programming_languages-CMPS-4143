@@ -20,6 +20,7 @@ namespace Five_digit_number
         {
             bool run = true;
 
+            PrintHeader();
             while (run)
             {
                 Console.Write("Enter a 5-digit number: ");
@@ -58,9 +59,9 @@ namespace Five_digit_number
             int x;
             String res = Console.ReadLine();
 
-            while (!Int32.TryParse(res, out x) || res.Length > 5)
+            while (!Int32.TryParse(res, out x))
             {
-                Console.WriteLine("Not a valid integer or integer is longer than 5 digits. Try again.");
+                Console.WriteLine("Not a valid integer. Try again.");
                 res = Console.ReadLine();
             }
             return x;
