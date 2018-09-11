@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿/* Shady Boukhary
+ * CMPS 4143: Contemporary Programming Languages
+ * September 12th, 2018
+ * Dr. Stringfellow
+ * Description: GUI App - The user enters an integer then its digits are displayed seperately.
+*/
+
+using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace program_3_five_digit_number
@@ -17,6 +18,8 @@ namespace program_3_five_digit_number
             InitializeComponent();
             showDigitsButton.Enabled = false;
         }
+
+        /* Event Handlers */
 
         private void showDigitsButton_Click(object sender, EventArgs e)
         {
@@ -56,11 +59,6 @@ namespace program_3_five_digit_number
         public static int GetDigit(int num, int div)
         {
             return num / div % 10;
-        }
-
-        private void resultLabel_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

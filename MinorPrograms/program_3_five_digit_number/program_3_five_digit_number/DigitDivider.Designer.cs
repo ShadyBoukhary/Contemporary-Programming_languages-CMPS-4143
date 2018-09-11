@@ -76,7 +76,6 @@
             this.resultLabel.Size = new System.Drawing.Size(459, 40);
             this.resultLabel.TabIndex = 3;
             this.resultLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.resultLabel.Click += new System.EventHandler(this.resultLabel_Click);
             // 
             // DigitDivider
             // 
