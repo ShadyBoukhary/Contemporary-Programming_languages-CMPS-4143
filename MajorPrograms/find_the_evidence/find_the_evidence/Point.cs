@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Shady Boukhary
 
 namespace find_the_evidence
 {
     class Point
     {
-        private int x;
-        private int y;
+        /******************** Member Data ********************/
+
+        private readonly int x;
+        private readonly int y;
+
+        /******************** Constructos ********************/
 
         public Point()
         {
@@ -21,6 +21,8 @@ namespace find_the_evidence
             this.x = x;
             this.y = y;
         }
+
+        /******************** Properties ********************/
 
         public int X
         {
@@ -38,27 +40,7 @@ namespace find_the_evidence
             }
         }
 
-        /// <summary>
-        /// Overloaded operator ==
-        /// </summary>
-        /// <param name="left"></param>
-        /// <param name="right"></param>
-        /// <returns>bool</returns>
-        public static bool operator== (Point left, Point right)
-        {
-            return left.X == right.X && left.Y == right.Y;
-        }
-
-        /// <summary>
-        /// Overloaded operator !=
-        /// </summary>
-        /// <param name="left"></param>
-        /// <param name="right"></param>
-        /// <returns>bool</returns>
-        public static bool operator!= (Point left, Point right)
-        {
-            return left.X != right.X || left.Y != right.Y;
-        }
+        /******************** Methods ********************/
 
         /// <summary>
         /// Override Equals To supress warnings
@@ -78,6 +60,39 @@ namespace find_the_evidence
         public override int GetHashCode()
         {
             return base.GetHashCode();
+        }
+
+        /// <summary>
+        /// Formats point to a string
+        /// </summary>
+        /// <returns>string</returns>
+        public override string ToString()
+        {
+            return $"({x}, {y})";
+        }
+
+        /******************** Overloaded Operators ********************/
+
+        /// <summary>
+        /// Overloaded operator ==
+        /// </summary>
+        /// <param name="left"></param>
+        /// <param name="right"></param>
+        /// <returns>bool</returns>
+        public static bool operator ==(Point left, Point right)
+        {
+            return left.X == right.X && left.Y == right.Y;
+        }
+
+        /// <summary>
+        /// Overloaded operator !=
+        /// </summary>
+        /// <param name="left"></param>
+        /// <param name="right"></param>
+        /// <returns>bool</returns>
+        public static bool operator !=(Point left, Point right)
+        {
+            return left.X != right.X || left.Y != right.Y;
         }
     }
 }
