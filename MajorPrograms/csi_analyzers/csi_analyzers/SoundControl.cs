@@ -22,6 +22,7 @@ namespace csi_analyzers
         private readonly string mainTheme;
         private readonly string defaultButtonEffect;
         private readonly string cancelButtonEffect;
+        private readonly string hoverButtonEffect;
         private static SoundControl soundControl;
 
         private SoundControl()
@@ -31,6 +32,7 @@ namespace csi_analyzers
             mainTheme = "main.wav";
             defaultButtonEffect = "defaultButton.wav";
             cancelButtonEffect = "cancelButton.wav";
+            hoverButtonEffect = "hover.wav";
             mainPlayer = new SoundPlayer();
             effectsPlayer = new WindowsMediaPlayer();
             
@@ -83,6 +85,16 @@ namespace csi_analyzers
             effectsPlayer.URL = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),
                                                                    musicPath,
                                                                    cancelButtonEffect);
+        }
+
+        /// <summary>
+        /// Plays sound when hovering over button
+        /// </summary>
+        public void PlayHoverButton()
+        {
+            effectsPlayer.URL = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),
+                                                                   musicPath,
+                                                                   hoverButtonEffect);
         }
     }
 }
