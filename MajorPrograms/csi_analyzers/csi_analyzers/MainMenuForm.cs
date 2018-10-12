@@ -36,16 +36,16 @@ namespace csi_analyzers
         private void initViews()
         {
             playButton.BackColor = Color.FromArgb(0, Color.DarkBlue);
-            playButton.ForeColor = Color.FromArgb(100, Color.CornflowerBlue);
+            playButton.ForeColor = Color.FromArgb(100, Constants.PRIMARY_COLOR);
             instructionsButton.BackColor = Color.FromArgb(0, Color.DarkBlue);
-            instructionsButton.ForeColor = Color.FromArgb(100, Color.CornflowerBlue);
+            instructionsButton.ForeColor = Color.FromArgb(100, Constants.PRIMARY_COLOR);
             settingsButton.BackColor = Color.FromArgb(0, Color.DarkBlue);
-            settingsButton.ForeColor = Color.FromArgb(100, Color.CornflowerBlue);
+            settingsButton.ForeColor = Color.FromArgb(100, Constants.PRIMARY_COLOR);
 
             exitButton.BackColor = Color.FromArgb(0, Color.DarkBlue);
-            exitButton.ForeColor = Color.FromArgb(100, Color.CornflowerBlue);
+            exitButton.ForeColor = Color.FromArgb(100, Constants.PRIMARY_COLOR);
 
-            mainMenuGroupBox.BackColor = Color.FromArgb(30, Color.CornflowerBlue);
+            mainMenuGroupBox.BackColor = Color.FromArgb(30, Constants.PRIMARY_COLOR);
         }
 
         private void MainMenuForm_Load(object sender, EventArgs e)
@@ -56,26 +56,26 @@ namespace csi_analyzers
 
         private void buttons_OnMouseEnter(object sender, EventArgs e)
         {
-            soundControl.PlayHoverButton();
-            ((Button)sender).ForeColor = Color.White;
+            soundControl.PlayEffect(SoundControl.SoundType.HoverEffect);
+            ((Button)sender).ForeColor = Constants.SECONDARY_COLOR;
 
         }
 
         private void buttons_OnMouseLeave(object sender, EventArgs e)
         {
-            ((Button)sender).ForeColor = Color.CornflowerBlue;
+            ((Button)sender).ForeColor = Constants.PRIMARY_COLOR;
         }
 
         async private void buttons_Click(object sender, MouseEventArgs e)
         {
             if (sender == playButton)
             {
-                soundControl.PlayDefaultButton();
+                soundControl.PlayEffect(SoundControl.SoundType.DefaultEffect);
 
             }
             else if (sender == instructionsButton)
             {
-                soundControl.PlayDefaultButton();
+                soundControl.PlayEffect(SoundControl.SoundType.DefaultEffect);
                 InstructionsForm instructionsForm = new InstructionsForm(formClosedEventHandler);
                 instructionsForm.Show();
                 await Task.Delay(100);
@@ -83,11 +83,11 @@ namespace csi_analyzers
             }
             else if (sender == settingsButton)
             {
-                soundControl.PlayDefaultButton();
+                soundControl.PlayEffect(SoundControl.SoundType.DefaultEffect);
             }
             else   // exit button
             {
-                soundControl.PlayCancelButton();
+                soundControl.PlayEffect(SoundControl.SoundType.CancelEffect);
                 await Task.Delay(100);
                 Close();
             }

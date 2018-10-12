@@ -20,7 +20,7 @@ namespace csi_analyzers
             InitializeComponent();
             InitViews();
 
-            this.soundControl = SoundControl.Instance;
+            soundControl = SoundControl.Instance;
             this.onCloseLambda = onCloseLambda;
         }
 
@@ -30,20 +30,45 @@ namespace csi_analyzers
             FormBorderStyle = FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;
             Utilities.SetDoubleBuffering(Controls, true);
-            instructionsGroupBox.BackColor = Color.FromArgb(30, Color.CornflowerBlue);
+            instructionsGroupBox.BackColor = Color.FromArgb(30, Constants.PRIMARY_COLOR);
+            instructionsLabel.BackColor = Color.Transparent;
         }
 
         async private void okButton_Click(object sender, EventArgs e)
         {
             // show main form before closing this form to prevent flickers
-            soundControl.PlayDefaultButton();
+            soundControl.PlayEffect(SoundControl.SoundType.DefaultEffect);
             await onCloseLambda();
             Close();
         }
 
-        private void InstructionsForm_Load(object sender, EventArgs e)
+        async private void InstructionsForm_Load(object sender, EventArgs e)
         {
-            string s = "Hello detective, how are you?";
+            
+            foreach(char c in Constants.INSTRUCTIONS)
+            {
+                
+                await Task.Delay(40);
+                instructionsLabel.Text += c;
+                if (c == '.' || c == ',')
+                {
+                    await Task.Delay(300);
+                }
+            }
         }
+
+        private void okButton_OnMouseEnter(object sender, EventArgs e)
+        {
+            soundControl.PlayEffect(SoundControl.SoundType.HoverEffect);
+            okButton.ForeColor = Constants.PRIMARY_COLOR;
+        }
+
+        private void okButton_OnMouseLeave(object sender, EventArgs e)
+        {
+            okButton.ForeColor = Constants.SECONDARY_COLOR;
+        }
+
+       
     }
+
 }

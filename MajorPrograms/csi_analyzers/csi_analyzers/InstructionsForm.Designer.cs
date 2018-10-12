@@ -32,6 +32,7 @@
             this.okButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.instructionsLabel = new System.Windows.Forms.Label();
             this.instructionsGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,6 +42,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.instructionsGroupBox.BackColor = System.Drawing.Color.Transparent;
+            this.instructionsGroupBox.Controls.Add(this.instructionsLabel);
             this.instructionsGroupBox.Controls.Add(this.label2);
             this.instructionsGroupBox.Controls.Add(this.label1);
             this.instructionsGroupBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -68,6 +70,8 @@
             this.okButton.Text = "OK";
             this.okButton.UseVisualStyleBackColor = false;
             this.okButton.Click += new System.EventHandler(this.okButton_Click);
+            this.okButton.MouseEnter += new System.EventHandler(this.okButton_OnMouseEnter);
+            this.okButton.MouseLeave += new System.EventHandler(this.okButton_OnMouseLeave);
             // 
             // label2
             // 
@@ -90,6 +94,19 @@
             this.label1.Size = new System.Drawing.Size(144, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Instructions";
+            // 
+            // instructionsLabel
+            // 
+            this.instructionsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.instructionsLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.instructionsLabel.Font = new System.Drawing.Font("Lucida Sans Typewriter", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.instructionsLabel.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.instructionsLabel.Location = new System.Drawing.Point(6, 53);
+            this.instructionsLabel.Name = "instructionsLabel";
+            this.instructionsLabel.Size = new System.Drawing.Size(492, 267);
+            this.instructionsLabel.TabIndex = 2;
             // 
             // InstructionsForm
             // 
@@ -116,5 +133,6 @@
         private System.Windows.Forms.Button okButton;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label instructionsLabel;
     }
 }

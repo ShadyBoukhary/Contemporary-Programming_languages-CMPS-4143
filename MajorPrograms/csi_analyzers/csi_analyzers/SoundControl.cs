@@ -35,14 +35,14 @@ namespace csi_analyzers
             hoverButtonEffect = "hover.wav";
             mainPlayer = new SoundPlayer();
             effectsPlayer = new WindowsMediaPlayer();
-            
+
         }
 
         /// <summary>
         /// Lazy Instance of Singleton
         /// </summary>
         public static SoundControl Instance => soundControl ?? (soundControl = new SoundControl());
-        
+
         /// <summary>
         /// Plays the Main Menu theme of the game
         /// </summary>
@@ -51,7 +51,7 @@ namespace csi_analyzers
             try
             {
                 mainPlayer.SoundLocation = $"{musicPath}{mainTheme}";
-                mainPlayer.PlayLooping();  
+                mainPlayer.PlayLooping();
             }
             catch (Exception ex)
             {
@@ -68,33 +68,41 @@ namespace csi_analyzers
         }
 
         /// <summary>
-        /// Plays the default button sound effect
+        /// Plays a specific SFX
         /// </summary>
-        public void PlayDefaultButton()
+        /// <param name="type"></param>
+        public void PlayEffect(SoundType type)
         {
-            effectsPlayer.URL = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),
-                                                                   musicPath,
-                                                                   defaultButtonEffect);
+            switch (type)
+            {
+                case SoundType.DefaultEffect:
+                    effectsPlayer.URL = CombinePath(defaultButtonEffect);
+                    break;
+
+                case SoundType.CancelEffect:
+                    effectsPlayer.URL = CombinePath(cancelButtonEffect);
+                    break;
+
+                case SoundType.HoverEffect:
+                    effectsPlayer.URL = CombinePath(hoverButtonEffect);
+                    break;
+            }
         }
 
-        /// <summary>
-        /// Plays the cancel button sound effect
-        /// </summary>
-        public void PlayCancelButton()
+        public string CombinePath(string effectPath)
         {
-            effectsPlayer.URL = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),
-                                                                   musicPath,
-                                                                   cancelButtonEffect);
+            return Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),
+                                                      musicPath, effectPath);
         }
+        
 
-        /// <summary>
-        /// Plays sound when hovering over button
-        /// </summary>
-        public void PlayHoverButton()
+        public enum SoundType
         {
-            effectsPlayer.URL = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),
-                                                                   musicPath,
-                                                                   hoverButtonEffect);
+            DefaultEffect,
+            CancelEffect,
+            HoverEffect
         }
     }
+
+    
 }
