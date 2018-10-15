@@ -27,6 +27,7 @@ namespace csi_analyzers
         public static string DIFFICULTY_KEY => "difficulty";
         public static string CAN_IMPORT_KEY => "canImport";
         public static string IMPORTED_SCENES_PATH_KEY => "importedScenesPath";
+        public static int GRID_BUTTON_SIZE => 48;
 
     }
 

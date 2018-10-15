@@ -70,8 +70,7 @@ namespace csi_analyzers
         {
             if (sender == playButton)
             {
-                soundControl.PlayEffect(SoundControl.SoundType.DefaultEffect);
-
+                NavigateTo(new EvidenceTypeForm());
             }
             else if (sender == instructionsButton)
             {

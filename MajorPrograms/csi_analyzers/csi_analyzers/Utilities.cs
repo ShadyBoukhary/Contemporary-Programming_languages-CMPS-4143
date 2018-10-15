@@ -9,6 +9,7 @@ namespace csi_analyzers
 {
     class Utilities
     {
+        private static readonly Random rand = new Random(DateTime.Now.Millisecond);
 
         public static void SetDoubleBuffering(Control.ControlCollection controlCollection, bool value)
         {
@@ -24,6 +25,17 @@ namespace csi_analyzers
             dialog.Filter = "Text files | *.txt"; 
             dialog.Multiselect = false;
             return dialog;
+        }
+
+        /// <summary>
+        /// Gets a random integer
+        /// </summary>
+        /// <param name="min"></param>
+        /// <param name="max"></param>
+        /// <returns></returns>
+        public static int GetRandomInt(int min, int max)
+        {
+            return rand.Next(min, max);
         }
 
 

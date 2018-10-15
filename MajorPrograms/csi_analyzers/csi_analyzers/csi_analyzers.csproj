@@ -47,11 +47,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
+    <Compile Include="CustomProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomProgressBar.Designer.cs">
+      <DependentUpon>CustomProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EvidenceTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EvidenceTypeForm.Designer.cs">
+      <DependentUpon>EvidenceTypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GridButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GridButton.Designer.cs">
+      <DependentUpon>GridButton.cs</DependentUpon>
+    </Compile>
     <Compile Include="InstructionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InstructionsForm.Designer.cs">
       <DependentUpon>InstructionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingForm.Designer.cs">
+      <DependentUpon>LoadingForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainMenuForm.cs">
       <SubType>Form</SubType>
@@ -71,8 +95,14 @@
     </Compile>
     <Compile Include="SoundControl.cs" />
     <Compile Include="Utilities.cs" />
+    <EmbeddedResource Include="EvidenceTypeForm.resx">
+      <DependentUpon>EvidenceTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InstructionsForm.resx">
       <DependentUpon>InstructionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingForm.resx">
+      <DependentUpon>LoadingForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenuForm.resx">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
