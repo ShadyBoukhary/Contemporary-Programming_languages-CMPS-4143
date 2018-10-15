@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.instructionsGroupBox = new System.Windows.Forms.GroupBox();
-            this.okButton = new System.Windows.Forms.Button();
+            this.instructionsLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.instructionsLabel = new System.Windows.Forms.Label();
+            this.okButton = new System.Windows.Forms.Button();
             this.instructionsGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,26 +52,18 @@
             this.instructionsGroupBox.TabIndex = 1;
             this.instructionsGroupBox.TabStop = false;
             // 
-            // okButton
+            // instructionsLabel
             // 
-            this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.okButton.BackColor = System.Drawing.Color.Transparent;
-            this.okButton.FlatAppearance.BorderSize = 0;
-            this.okButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.okButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.okButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.okButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.okButton.Font = new System.Drawing.Font("Lucida Sans Typewriter", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.okButton.ForeColor = System.Drawing.Color.White;
-            this.okButton.Location = new System.Drawing.Point(998, 546);
-            this.okButton.Name = "okButton";
-            this.okButton.Size = new System.Drawing.Size(128, 30);
-            this.okButton.TabIndex = 5;
-            this.okButton.Text = "OK";
-            this.okButton.UseVisualStyleBackColor = false;
-            this.okButton.Click += new System.EventHandler(this.okButton_Click);
-            this.okButton.MouseEnter += new System.EventHandler(this.okButton_OnMouseEnter);
-            this.okButton.MouseLeave += new System.EventHandler(this.okButton_OnMouseLeave);
+            this.instructionsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.instructionsLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.instructionsLabel.Font = new System.Drawing.Font("Lucida Sans Typewriter", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.instructionsLabel.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.instructionsLabel.Location = new System.Drawing.Point(6, 53);
+            this.instructionsLabel.Name = "instructionsLabel";
+            this.instructionsLabel.Size = new System.Drawing.Size(492, 267);
+            this.instructionsLabel.TabIndex = 2;
             // 
             // label2
             // 
@@ -95,18 +87,26 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Instructions";
             // 
-            // instructionsLabel
+            // okButton
             // 
-            this.instructionsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.instructionsLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.instructionsLabel.Font = new System.Drawing.Font("Lucida Sans Typewriter", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.instructionsLabel.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.instructionsLabel.Location = new System.Drawing.Point(6, 53);
-            this.instructionsLabel.Name = "instructionsLabel";
-            this.instructionsLabel.Size = new System.Drawing.Size(492, 267);
-            this.instructionsLabel.TabIndex = 2;
+            this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.okButton.BackColor = System.Drawing.Color.Transparent;
+            this.okButton.FlatAppearance.BorderSize = 0;
+            this.okButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.okButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.okButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.okButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.okButton.Font = new System.Drawing.Font("Lucida Sans Typewriter", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.okButton.ForeColor = System.Drawing.Color.White;
+            this.okButton.Location = new System.Drawing.Point(998, 546);
+            this.okButton.Name = "okButton";
+            this.okButton.Size = new System.Drawing.Size(128, 30);
+            this.okButton.TabIndex = 5;
+            this.okButton.Text = "OK";
+            this.okButton.UseVisualStyleBackColor = false;
+            this.okButton.Click += new System.EventHandler(this.okButton_Click);
+            this.okButton.MouseEnter += new System.EventHandler(this.okButton_OnMouseEnter);
+            this.okButton.MouseLeave += new System.EventHandler(this.okButton_OnMouseLeave);
             // 
             // InstructionsForm
             // 

@@ -18,6 +18,14 @@ namespace csi_analyzers
             }
         }
 
+        public static OpenFileDialog GetTextFileDialog()
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "Text files | *.txt"; 
+            dialog.Multiselect = false;
+            return dialog;
+        }
+
 
         private static void SetDoubleBuffering(Control control, bool value)
         {

@@ -75,15 +75,11 @@ namespace csi_analyzers
             }
             else if (sender == instructionsButton)
             {
-                soundControl.PlayEffect(SoundControl.SoundType.DefaultEffect);
-                InstructionsForm instructionsForm = new InstructionsForm(formClosedEventHandler);
-                instructionsForm.Show();
-                await Task.Delay(100);
-                Hide();
+                NavigateTo(new InstructionsForm(formClosedEventHandler));
             }
             else if (sender == settingsButton)
             {
-                soundControl.PlayEffect(SoundControl.SoundType.DefaultEffect);
+                NavigateTo(new SettingsForm(formClosedEventHandler));
             }
             else   // exit button
             {
@@ -91,6 +87,14 @@ namespace csi_analyzers
                 await Task.Delay(100);
                 Close();
             }
+        }
+
+        private void NavigateTo(Form form)
+        {
+            soundControl.PlayEffect(SoundControl.SoundType.DefaultEffect);
+            form.Show();
+            form.Shown += async (sender, e) => { await Task.Delay(150); Hide(); };
+
         }
 
 

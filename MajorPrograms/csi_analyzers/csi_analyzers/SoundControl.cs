@@ -23,7 +23,7 @@ namespace csi_analyzers
         private readonly string defaultButtonEffect;
         private readonly string cancelButtonEffect;
         private readonly string hoverButtonEffect;
-        private static SoundControl soundControl;
+        private static SoundControl soundControl; 
 
         private SoundControl()
         {

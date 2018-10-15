@@ -24,6 +24,9 @@ namespace csi_analyzers
 
         public static Color PRIMARY_COLOR => Color.CornflowerBlue;
         public static Color SECONDARY_COLOR => Color.White;
+        public static string DIFFICULTY_KEY => "difficulty";
+        public static string CAN_IMPORT_KEY => "canImport";
+        public static string IMPORTED_SCENES_PATH_KEY => "importedScenesPath";
 
     }
 
