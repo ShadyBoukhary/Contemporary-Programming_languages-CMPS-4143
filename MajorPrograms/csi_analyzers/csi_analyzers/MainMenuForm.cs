@@ -50,7 +50,7 @@ namespace csi_analyzers
 
         private void MainMenuForm_Load(object sender, EventArgs e)
         {
-            soundControl.PlayMenuTheme();
+            soundControl.PlayTheme(SoundControl.SoundType.MainTheme);
         }
 
 

@@ -126,7 +126,6 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EvidenceTypeForm";
             this.Text = "EvidenceTypeForm";
-            this.Click += new System.EventHandler(this.buttons_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 

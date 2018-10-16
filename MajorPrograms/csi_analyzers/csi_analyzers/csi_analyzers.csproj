@@ -59,6 +59,12 @@
     <Compile Include="EvidenceTypeForm.Designer.cs">
       <DependentUpon>EvidenceTypeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForm.Designer.cs">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="GridButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     <Compile Include="Utilities.cs" />
     <EmbeddedResource Include="EvidenceTypeForm.resx">
       <DependentUpon>EvidenceTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InstructionsForm.resx">
       <DependentUpon>InstructionsForm.cs</DependentUpon>
@@ -146,6 +155,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="backgroung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\room1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\room2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\room3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

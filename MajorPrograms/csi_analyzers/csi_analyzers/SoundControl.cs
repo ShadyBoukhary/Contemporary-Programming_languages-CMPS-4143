@@ -20,6 +20,7 @@ namespace csi_analyzers
         private readonly WindowsMediaPlayer effectsPlayer;
         private readonly string musicPath;
         private readonly string mainTheme;
+        private readonly string inGameTheme;
         private readonly string defaultButtonEffect;
         private readonly string cancelButtonEffect;
         private readonly string hoverButtonEffect;
@@ -30,6 +31,7 @@ namespace csi_analyzers
             Console.WriteLine("Initializing.");
             musicPath = @"sfx\";
             mainTheme = "main.wav";
+            inGameTheme = "game.wav";
             defaultButtonEffect = "defaultButton.wav";
             cancelButtonEffect = "cancelButton.wav";
             hoverButtonEffect = "hover.wav";
@@ -46,11 +48,20 @@ namespace csi_analyzers
         /// <summary>
         /// Plays the Main Menu theme of the game
         /// </summary>
-        public void PlayMenuTheme()
+        public void PlayTheme(SoundType type)
         {
+            switch (type)
+            {
+                case SoundType.MainTheme:
+                    mainPlayer.SoundLocation = $"{musicPath}{mainTheme}";
+                    break;
+
+                case SoundType.InGameTheme:
+                    mainPlayer.SoundLocation = $"{musicPath}{inGameTheme}";
+                    break;
+            }
             try
             {
-                mainPlayer.SoundLocation = $"{musicPath}{mainTheme}";
                 mainPlayer.PlayLooping();
             }
             catch (Exception ex)
@@ -62,7 +73,7 @@ namespace csi_analyzers
         /// <summary>
         /// Stops playing Main Menu theme
         /// </summary>
-        public void StopMainTheme()
+        public void StopTheme()
         {
             mainPlayer.Stop();
         }
@@ -100,7 +111,9 @@ namespace csi_analyzers
         {
             DefaultEffect,
             CancelEffect,
-            HoverEffect
+            HoverEffect,
+            MainTheme,
+            InGameTheme
         }
     }
 

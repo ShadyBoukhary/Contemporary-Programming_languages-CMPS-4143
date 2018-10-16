@@ -12,22 +12,32 @@ namespace csi_analyzers
 {
     public partial class GridButton : Button
     {
-        const int startX = 88;
-        const int startY = 200;
-        public GridButton(int row, int column) : base()
+        const int START_X = 0;
+        const int START_Y = 0;
+        const int BUTTON_SIZE_X = 30;
+        public GridButton(int row, int column, int sizeX, int sizeY) : base()
         {
             InitializeComponent();
-            Size = new Size(48, 48);
+            Size = new Size(sizeY, sizeX);
             FlatStyle = FlatStyle.Flat;
             FlatAppearance.BorderSize = 1;
-            FlatAppearance.BorderColor = Color.Black;
-            Top = startX + row * Height;
-            Left = startY + column * Width;
+            FlatAppearance.BorderColor = Color.CornflowerBlue;
+            FlatAppearance.CheckedBackColor = Color.Transparent;
+            FlatAppearance.MouseDownBackColor = Color.FromArgb(50, Color.CornflowerBlue);
+            FlatAppearance.MouseOverBackColor = Color.FromArgb(90, Color.CornflowerBlue);
+            Top = START_X + row * Height;
+            Left = START_Y + column * Width;
+
+            Tag = $"{row},{column}";
         }
+
+
 
         protected override void OnPaint(PaintEventArgs pe)
         {
             base.OnPaint(pe);
         }
+
+
     }
 }

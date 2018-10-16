@@ -12,10 +12,13 @@ namespace csi_analyzers
 {
     public partial class LoadingForm : Form
     {
+        const int PANEL_MAX_WIDTH = 900;
+        const int PANEL_MAX_HEIGHT = 905;
         private Settings settings;
         private bool isImported;
         private string path;
         private string type;
+        private GridButton[,] gridButtons;
 
         public LoadingForm(string type)
         {
@@ -41,7 +44,7 @@ namespace csi_analyzers
 
         private void loadingBackgroundWorker_DoWork(object sender, DoWorkEventArgs e)
         {
-            GridButton[,] gridButtons;
+            
             int maxRows, maxCols;
             if (settings.CanImport)
             {
@@ -49,8 +52,8 @@ namespace csi_analyzers
             }
             else
             {
-                maxRows = Utilities.GetRandomInt(3, 12);
-                maxCols = Utilities.GetRandomInt(3, 12);
+                maxRows = Utilities.GetRandomInt(5, 30);
+                maxCols = Utilities.GetRandomInt(9, 30);
 
                 gridButtons = new GridButton[maxRows, maxCols];
 
@@ -61,7 +64,7 @@ namespace csi_analyzers
                     for (int col = 0; col < maxCols; col++)
                     {
                         int colProgress = (col + 1) * maxCols / (maxRows * maxCols);
-                        gridButtons[row, col] = new GridButton(row, col);
+                        gridButtons[row, col] = new GridButton(row, col, PANEL_MAX_HEIGHT / maxRows, PANEL_MAX_WIDTH / maxCols);
                         int progress = rowProgress + colProgress;
                         loadingBackgroundWorker.ReportProgress(progress <= 100 ? progress : 100);
                     }
@@ -74,9 +77,16 @@ namespace csi_analyzers
             progressBar.Value = e.ProgressPercentage;
         }
 
-        private void loadingBackgroundWorker_Completed(object sender, RunWorkerCompletedEventArgs e)
+        async private void loadingBackgroundWorker_Completed(object sender, RunWorkerCompletedEventArgs e)
         {
-            Console.WriteLine("Done");
+            GameForm gameForm = new GameForm(gridButtons, type);
+            await Task.Delay(1000);
+            SoundControl.Instance.StopTheme();
+            progressBar.Hide();
+            loadingLabel.Hide();
+            gameForm.Show();
+            
+            gameForm.Shown += async (sender1, e1) => { await Task.Delay(2000); Close(); };
         }
 
         private void LoadingForm_Shown(object sender, EventArgs e)
