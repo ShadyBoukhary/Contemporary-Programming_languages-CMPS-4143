@@ -10,9 +10,17 @@ using System.Windows.Forms;
 
 namespace csi_analyzers
 {
+    /// <summary>
+    /// Form Shown before loading
+    /// </summary>
     public partial class EvidenceTypeForm : Form
     {
+        /* **************************** Member Data **************************** */
+
         private SoundControl soundControl;
+
+        /* **************************** Constructors **************************** */
+
         public EvidenceTypeForm()
         {
             InitializeComponent();
@@ -20,6 +28,11 @@ namespace csi_analyzers
             InitViews();
         }
 
+        /* **************************** Methods **************************** */
+
+        /// <summary>
+        /// Initialize Controls
+        /// </summary>
         private void InitViews()
         {
             TopMost = true;
@@ -28,21 +41,32 @@ namespace csi_analyzers
             Utilities.SetDoubleBuffering(Controls, true);
         }
 
+        /* **************************** Event Handlers **************************** */
+
+         /// <summary>
+         /// Handle all button clicks
+         /// </summary>
+         /// <param name="sender"></param>
+         /// <param name="e"></param>
         private void buttons_Click(object sender, EventArgs e)
         {
             LoadingForm loadingForm;
+
+            // set game type
             if (sender == fingerprintsButton)
             {
-                loadingForm = new LoadingForm("fingerprints");
+                loadingForm = new LoadingForm(Settings.GameType.Fingerprint);
             }
-            else if (sender == hairButton)
+            else if (sender == DNAButton)
             {
-                loadingForm = new LoadingForm("hair");
+                loadingForm = new LoadingForm(Settings.GameType.DNA);
             }
             else
             {
-                loadingForm = new LoadingForm("something");
+                loadingForm = new LoadingForm(Settings.GameType.Blood);
             }
+            
+            // navigate to LoadingForm
             loadingForm.Show();
             loadingForm.Shown += async (sender1, e1) => { await Task.Delay(150); Close(); };
 

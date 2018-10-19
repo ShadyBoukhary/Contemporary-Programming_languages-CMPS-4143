@@ -14,8 +14,9 @@ namespace csi_analyzers
     /// Singleton Class that controls music and sound througout the application
     /// </summary>
     class SoundControl
-
     {
+        /* **************************** Member Data **************************** */
+
         private readonly SoundPlayer mainPlayer;
         private readonly WindowsMediaPlayer effectsPlayer;
         private readonly string musicPath;
@@ -24,7 +25,9 @@ namespace csi_analyzers
         private readonly string defaultButtonEffect;
         private readonly string cancelButtonEffect;
         private readonly string hoverButtonEffect;
-        private static SoundControl soundControl; 
+        private static SoundControl soundControl;
+
+        /* **************************** Constructors **************************** */
 
         private SoundControl()
         {
@@ -40,10 +43,14 @@ namespace csi_analyzers
 
         }
 
+        /* **************************** Properties **************************** */
+
         /// <summary>
         /// Lazy Instance of Singleton
         /// </summary>
         public static SoundControl Instance => soundControl ?? (soundControl = new SoundControl());
+
+        /* **************************** Methods **************************** */
 
         /// <summary>
         /// Plays the Main Menu theme of the game

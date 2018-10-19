@@ -1,16 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace csi_analyzers
 {
+    /// <summary>
+    /// General purpose Ulitility class
+    /// </summary>
     class Utilities
     {
         private static readonly Random rand = new Random(DateTime.Now.Millisecond);
 
+        /// <summary>
+        /// Enable double bufferring for controls to avoid flickering
+        /// </summary>
+        /// <param name="controlCollection"></param>
+        /// <param name="value"></param>
         public static void SetDoubleBuffering(Control.ControlCollection controlCollection, bool value)
         {
             foreach(Control control in controlCollection)
@@ -19,6 +23,10 @@ namespace csi_analyzers
             }
         }
 
+        /// <summary>
+        /// Returns a txt only FileDialog
+        /// </summary>
+        /// <returns></returns>
         public static OpenFileDialog GetTextFileDialog()
         {
             OpenFileDialog dialog = new OpenFileDialog();
@@ -36,6 +44,15 @@ namespace csi_analyzers
         public static int GetRandomInt(int min, int max)
         {
             return rand.Next(min, max);
+        }
+
+        /// <summary>
+        /// Get random detective name
+        /// </summary>
+        /// <returns></returns>
+        public static string GetRandomOfficerName()
+        {
+            return Constants.NAMES[GetRandomInt(0, 5)];
         }
 
 

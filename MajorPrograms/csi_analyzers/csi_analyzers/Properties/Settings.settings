@@ -2,8 +2,8 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="csi_analyzers.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="difficulty" Type="System.String" Scope="User">
-      <Value Profile="(Default)">medium</Value>
+    <Setting Name="difficulty" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="importedScenesPath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />

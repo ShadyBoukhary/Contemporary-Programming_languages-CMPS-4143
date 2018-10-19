@@ -12,11 +12,19 @@ using System.Media;
 
 namespace csi_analyzers
 {
+    /// <summary>
+    /// Main Menu Form
+    /// First Form in the app
+    /// </summary>
     public partial class MainMenuForm : Form
     {
+        /* **************************** Member Data **************************** */
+
         private SoundPlayer Player = new SoundPlayer();
         private SoundControl soundControl;
         private Func<Task> formClosedEventHandler;
+
+        /* **************************** Constructors **************************** */
 
         public MainMenuForm()
         {
@@ -33,6 +41,9 @@ namespace csi_analyzers
             
         }
 
+        /// <summary>
+        /// Initailize Controls
+        /// </summary>
         private void initViews()
         {
             playButton.BackColor = Color.FromArgb(0, Color.DarkBlue);
@@ -47,6 +58,8 @@ namespace csi_analyzers
 
             mainMenuGroupBox.BackColor = Color.FromArgb(30, Constants.PRIMARY_COLOR);
         }
+
+        /* **************************** Event Handlers **************************** */
 
         private void MainMenuForm_Load(object sender, EventArgs e)
         {
@@ -66,6 +79,11 @@ namespace csi_analyzers
             ((Button)sender).ForeColor = Constants.PRIMARY_COLOR;
         }
 
+        /// <summary>
+        /// Handle all buttons
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         async private void buttons_Click(object sender, MouseEventArgs e)
         {
             if (sender == playButton)
@@ -88,6 +106,10 @@ namespace csi_analyzers
             }
         }
 
+        /// <summary>
+        /// Navigate to appropriate page
+        /// </summary>
+        /// <param name="form"></param>
         private void NavigateTo(Form form)
         {
             soundControl.PlayEffect(SoundControl.SoundType.DefaultEffect);
@@ -95,7 +117,5 @@ namespace csi_analyzers
             form.Shown += async (sender, e) => { await Task.Delay(150); Hide(); };
 
         }
-
-
     }
 }

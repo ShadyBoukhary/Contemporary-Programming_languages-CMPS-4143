@@ -10,10 +10,17 @@ using System.Windows.Forms;
 
 namespace csi_analyzers
 {
+    /// <summary>
+    /// Contains instructions on how to play the game
+    /// </summary>
     public partial class InstructionsForm : Form
     {
+        /* **************************** Member Data **************************** */
+
         private SoundControl soundControl;
-        private Func<Task> onCloseLambda;
+        private Func<Task> onCloseLambda;   // lambda from Main Menu to avoid flicker
+
+        /* **************************** Constructors **************************** */
 
         public InstructionsForm(Func<Task> onCloseLambda)
         {
@@ -24,6 +31,11 @@ namespace csi_analyzers
             this.onCloseLambda = onCloseLambda;
         }
 
+        /* **************************** Methods **************************** */
+
+        /// <summary>
+        /// Initialize Controls
+        /// </summary>
         private void InitViews()
         {
             TopMost = true;
@@ -33,6 +45,8 @@ namespace csi_analyzers
             instructionsGroupBox.BackColor = Color.FromArgb(30, Constants.PRIMARY_COLOR);
             instructionsLabel.BackColor = Color.Transparent;
         }
+
+        /* **************************** Event Handlers **************************** */
 
         async private void okButton_Click(object sender, EventArgs e)
         {
@@ -44,7 +58,7 @@ namespace csi_analyzers
 
         async private void InstructionsForm_Load(object sender, EventArgs e)
         {
-            
+            // animate test
             foreach(char c in Constants.INSTRUCTIONS)
             {
                 
@@ -52,7 +66,7 @@ namespace csi_analyzers
                 instructionsLabel.Text += c;
                 if (c == '.' || c == ',')
                 {
-                    await Task.Delay(300);
+                    await Task.Delay(250);
                 }
             }
         }

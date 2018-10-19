@@ -25,10 +25,10 @@ namespace csi_analyzers.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("medium")]
-        public string difficulty {
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int difficulty {
             get {
-                return ((string)(this["difficulty"]));
+                return ((int)(this["difficulty"]));
             }
             set {
                 this["difficulty"] = value;
