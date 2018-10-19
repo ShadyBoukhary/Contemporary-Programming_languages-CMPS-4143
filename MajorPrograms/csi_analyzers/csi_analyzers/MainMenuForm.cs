@@ -1,10 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿/**
+ * Shady Boukhary
+ * Dr. Stringfellow
+ * Contemporary Programming Languages: C#
+ * October 20th, 2018
+ * Description: Full CSI Puzzle Game. The user can choose multiple difficulties.
+ * The game includes a grid of buttons and the user has to search for clues by
+ * clicking on the buttons. Hints are given as to where the clues are located.
+ * A timer exists that adds more challenge as well as a variety of settings to 
+ * customize the game.
+ *
+ * */
+
+using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;

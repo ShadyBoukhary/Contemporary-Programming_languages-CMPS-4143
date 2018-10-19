@@ -20,6 +20,7 @@ namespace csi_analyzers
         private readonly int cluesNum;
         private Settings.GameType type;
         private Scanalyzer scanalyzer;
+        private bool cancelled;
 
         /* **************************** Constructors **************************** */
 
@@ -29,6 +30,7 @@ namespace csi_analyzers
             soundControl = SoundControl.Instance;
             this.gridButtons = gridButtons;
             this.type = type;
+            cancelled = false;
             this.cluesNum = cluesNum;
             timeRemaining = totalAllowedTime = 194;
             InitScanalyzer();
@@ -232,23 +234,25 @@ namespace csi_analyzers
         /// <param name="e"></param>
         private void timerBackgroundWorker_Completed(object sender, RunWorkerCompletedEventArgs e)
         {
-            timerProgressBar.Value = 0;
-            ResetButtonsAfterCorrectGuess();
-            RevealClues();
-            DialogResult result = MessageBox.Show(Constants.YOU_FAILED,
-                                                 Constants.MISSION_FAILED,
-                                                 MessageBoxButtons.YesNo,
-                                                 MessageBoxIcon.Information);
-            switch (result)
+            if (!cancelled)
             {
-                case DialogResult.Yes:
-                    RestartGame();
-                    break;
-                default:
-                    AbortGame();
-                    break;
+                timerProgressBar.Value = 0;
+                ResetButtonsAfterCorrectGuess();
+                RevealClues();
+                DialogResult result = MessageBox.Show(Constants.YOU_FAILED,
+                                                     Constants.MISSION_FAILED,
+                                                     MessageBoxButtons.YesNo,
+                                                     MessageBoxIcon.Information);
+                switch (result)
+                {
+                    case DialogResult.Yes:
+                        RestartGame();
+                        break;
+                    default:
+                        AbortGame();
+                        break;
+                }
             }
-
         }
 
         private void button_OnMouseEnter(object sender, EventArgs e)
@@ -270,6 +274,8 @@ namespace csi_analyzers
         private void MenuButtons_Click(object sender, EventArgs e)
         {
             ResetButtonsAfterCorrectGuess();
+            cancelled = true;
+            timerBackgroundWorker.CancelAsync();
             RevealClues();
             MessageBox.Show("You failed Gotham City.", Constants.MISSION_FAILED, MessageBoxButtons.OK);
             if (sender == abortButton)
