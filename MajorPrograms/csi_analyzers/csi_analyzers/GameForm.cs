@@ -137,6 +137,7 @@ namespace csi_analyzers
         {
             string message = $"{scanalyzer.GetResults}";
             timerBackgroundWorker.CancelAsync();
+            cancelled = true;
 
             // Add more information for specific types of scanalyzers
             if (scanalyzer is BloodScanalyzer)
@@ -194,12 +195,13 @@ namespace csi_analyzers
                 // Sleep background thread (blocking sleep). Did not use await Task.Delay()
                 // because async await cannot be used with a background worker => exit point for thread
                 // it's okay to use blocking sleep with a thread as long as it's not a GUI thread
+                if (timerBackgroundWorker.CancellationPending)
+                    return;
+
                 System.Threading.Thread.Sleep(1000);    
                 timeRemaining--;
                 timerBackgroundWorker.ReportProgress(i * 100 / totalAllowedTime);
             }
-            
-            
         }
 
         /// <summary>
