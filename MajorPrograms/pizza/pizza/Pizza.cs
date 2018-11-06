@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace pizza
 {
@@ -18,6 +19,7 @@ namespace pizza
         virtual public string Name { set; get; }
         virtual public decimal TotalPrice => GetSizePrice() + GetSpecialtyPrice();
         public Specialty SpecialtyType { get; set; }
+        public Image DefaultImage => Constants.DefaultImage;
 
         public decimal GetSizePrice()
         {
@@ -33,6 +35,22 @@ namespace pizza
                     return 4.59M;
             }
         }
+
+        public Image GetImage()
+        {
+            switch (SpecialtyType)
+            {
+                case Specialty.MeatLovers:
+                    return Constants.MeatLoversImage;
+                case Specialty.CheeseLovers:
+                    return Constants.CheeseLoversImage;
+                case Specialty.VeggieLovers:
+                    return Constants.VeggieLoversImage;
+                default:
+                    return Constants.ItalianoImage;
+            }
+        }
+
 
         private decimal GetSpecialtyPrice()
         {

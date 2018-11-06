@@ -9,8 +9,10 @@ namespace pizza
     public class Cart
     {
         private List<Pizza> cart;
+        private static Cart instance;
+        public static Cart Instance => instance ?? (instance = new Cart());
 
-        public Cart()
+        private Cart()
         {
             cart = new List<Pizza>();
         }
@@ -28,7 +30,7 @@ namespace pizza
         }
 
         public decimal Total => SubTotal + SubTotal * 0.10M;
-
+        public bool IsEmpty => cart.Count > 0;
         
         public void AddToCart(Pizza pizza)
         {
@@ -38,6 +40,11 @@ namespace pizza
         public List<Pizza> GetCart()
         {
             return cart;
+        }
+
+        public void ClearCart()
+        {
+            cart.Clear();
         }
 
     }

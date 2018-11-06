@@ -31,81 +31,82 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl = new MaterialSkin.Controls.MaterialTabControl();
             this.specialsTab = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.specialsButton = new MaterialSkin.Controls.MaterialFlatButton();
-            this.customButton = new MaterialSkin.Controls.MaterialFlatButton();
-            this.pizzaListLabel = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.meatButton = new System.Windows.Forms.Button();
-            this.cheeseButton = new System.Windows.Forms.Button();
-            this.veggieButton = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.sizeGroupbox = new System.Windows.Forms.GroupBox();
-            this.personalSizeRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
-            this.materialRadioButton3 = new MaterialSkin.Controls.MaterialRadioButton();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.smallSizeRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
-            this.mediumSizeRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
-            this.largeSizeRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
-            this.checkoutButton = new System.Windows.Forms.Button();
-            this.restartButton = new System.Windows.Forms.Button();
-            this.addToCartButton = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.tomatoRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
-            this.alfredoRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
+            this.veggieButton = new System.Windows.Forms.Button();
+            this.cheeseButton = new System.Windows.Forms.Button();
+            this.meatButton = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pizzaListLabel = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.spinachRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
+            this.broccoliRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
+            this.mushroomsRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.parmesanRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
+            this.provoloneRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
+            this.mozzerrellaRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.pepperoniRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
             this.beefRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
             this.sausageRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
             this.chickenRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.parmesanRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
-            this.provoloneRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
-            this.mozzerrellaRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.spinachRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
-            this.broccoliRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
-            this.mushroomsRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tomatoRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
+            this.alfredoRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
+            this.label11 = new System.Windows.Forms.Label();
+            this.specialsButton = new MaterialSkin.Controls.MaterialFlatButton();
+            this.customButton = new MaterialSkin.Controls.MaterialFlatButton();
+            this.label10 = new System.Windows.Forms.Label();
+            this.sizeGroupbox = new System.Windows.Forms.GroupBox();
+            this.largeSizeRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
+            this.mediumSizeRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
+            this.smallSizeRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
+            this.personalSizeRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
+            this.materialRadioButton3 = new MaterialSkin.Controls.MaterialRadioButton();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.restartButton = new System.Windows.Forms.Button();
+            this.addToCartButton = new System.Windows.Forms.Button();
+            this.checkoutButton = new System.Windows.Forms.Button();
             this.orderPictureBox = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.meatLeftPictureBox = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.clearCartButton = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
             this.specialsTab.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.sizeGroupbox.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.orderPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.meatLeftPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -162,6 +163,144 @@
             this.specialsTab.Text = "Specials";
             this.specialsTab.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.ForestGreen;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(1108, 325);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(74, 35);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Select";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.SpecialtyPizzaButtons_Click);
+            // 
+            // veggieButton
+            // 
+            this.veggieButton.BackColor = System.Drawing.Color.ForestGreen;
+            this.veggieButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.veggieButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.veggieButton.ForeColor = System.Drawing.Color.White;
+            this.veggieButton.Location = new System.Drawing.Point(807, 325);
+            this.veggieButton.Name = "veggieButton";
+            this.veggieButton.Size = new System.Drawing.Size(74, 35);
+            this.veggieButton.TabIndex = 3;
+            this.veggieButton.Text = "Select";
+            this.veggieButton.UseVisualStyleBackColor = false;
+            this.veggieButton.Click += new System.EventHandler(this.SpecialtyPizzaButtons_Click);
+            // 
+            // cheeseButton
+            // 
+            this.cheeseButton.BackColor = System.Drawing.Color.ForestGreen;
+            this.cheeseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cheeseButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cheeseButton.ForeColor = System.Drawing.Color.White;
+            this.cheeseButton.Location = new System.Drawing.Point(500, 324);
+            this.cheeseButton.Name = "cheeseButton";
+            this.cheeseButton.Size = new System.Drawing.Size(74, 35);
+            this.cheeseButton.TabIndex = 3;
+            this.cheeseButton.Text = "Select";
+            this.cheeseButton.UseVisualStyleBackColor = false;
+            this.cheeseButton.Click += new System.EventHandler(this.SpecialtyPizzaButtons_Click);
+            // 
+            // meatButton
+            // 
+            this.meatButton.BackColor = System.Drawing.Color.ForestGreen;
+            this.meatButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.meatButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.meatButton.ForeColor = System.Drawing.Color.White;
+            this.meatButton.Location = new System.Drawing.Point(189, 325);
+            this.meatButton.Name = "meatButton";
+            this.meatButton.Size = new System.Drawing.Size(74, 35);
+            this.meatButton.TabIndex = 3;
+            this.meatButton.Text = "Select";
+            this.meatButton.UseVisualStyleBackColor = false;
+            this.meatButton.Click += new System.EventHandler(this.SpecialtyPizzaButtons_Click);
+            // 
+            // label5
+            // 
+            this.label5.Location = new System.Drawing.Point(345, 355);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(138, 52);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "The classic cheese pizza";
+            // 
+            // label9
+            // 
+            this.label9.Location = new System.Drawing.Point(953, 355);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(173, 66);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Catrina\'s Special Italiano";
+            // 
+            // label7
+            // 
+            this.label7.Location = new System.Drawing.Point(652, 355);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(173, 66);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Broccoli, onions, mushrooms, black olives, and red peppers";
+            // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(34, 355);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(138, 66);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Pepperoni, sausage, and bacon";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(952, 325);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(88, 30);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Italiano";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(651, 325);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(149, 30);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Veggie Lovers";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(344, 324);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(150, 30);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Cheese Lovers";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(33, 325);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(132, 30);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Meat Lovers";
+            // 
+            // pizzaListLabel
+            // 
+            this.pizzaListLabel.AutoSize = true;
+            this.pizzaListLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pizzaListLabel.Location = new System.Drawing.Point(23, 23);
+            this.pizzaListLabel.Name = "pizzaListLabel";
+            this.pizzaListLabel.Size = new System.Drawing.Size(240, 37);
+            this.pizzaListLabel.TabIndex = 1;
+            this.pizzaListLabel.Text = "CATRINA\'S PICKS";
+            // 
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.White;
@@ -177,6 +316,299 @@
             this.tabPage2.Size = new System.Drawing.Size(1457, 472);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Custom";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.pictureBox12);
+            this.groupBox4.Controls.Add(this.spinachRadioButton);
+            this.groupBox4.Controls.Add(this.pictureBox11);
+            this.groupBox4.Controls.Add(this.broccoliRadioButton);
+            this.groupBox4.Controls.Add(this.mushroomsRadioButton);
+            this.groupBox4.Controls.Add(this.pictureBox10);
+            this.groupBox4.Location = new System.Drawing.Point(932, 137);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(261, 208);
+            this.groupBox4.TabIndex = 5;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Veggies";
+            // 
+            // spinachRadioButton
+            // 
+            this.spinachRadioButton.AutoSize = true;
+            this.spinachRadioButton.Depth = 0;
+            this.spinachRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.spinachRadioButton.Location = new System.Drawing.Point(18, 97);
+            this.spinachRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.spinachRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.spinachRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.spinachRadioButton.Name = "spinachRadioButton";
+            this.spinachRadioButton.Ripple = true;
+            this.spinachRadioButton.Size = new System.Drawing.Size(78, 30);
+            this.spinachRadioButton.TabIndex = 1;
+            this.spinachRadioButton.TabStop = true;
+            this.spinachRadioButton.Text = "Spinach";
+            this.spinachRadioButton.UseVisualStyleBackColor = true;
+            this.spinachRadioButton.CheckedChanged += new System.EventHandler(this.CustomRadioButtons_CheckChanged);
+            this.spinachRadioButton.Click += new System.EventHandler(this.VeggiesRadioButtons_Click);
+            // 
+            // broccoliRadioButton
+            // 
+            this.broccoliRadioButton.AutoSize = true;
+            this.broccoliRadioButton.Depth = 0;
+            this.broccoliRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.broccoliRadioButton.Location = new System.Drawing.Point(18, 67);
+            this.broccoliRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.broccoliRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.broccoliRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.broccoliRadioButton.Name = "broccoliRadioButton";
+            this.broccoliRadioButton.Ripple = true;
+            this.broccoliRadioButton.Size = new System.Drawing.Size(79, 30);
+            this.broccoliRadioButton.TabIndex = 1;
+            this.broccoliRadioButton.TabStop = true;
+            this.broccoliRadioButton.Text = "Broccoli";
+            this.broccoliRadioButton.UseVisualStyleBackColor = true;
+            this.broccoliRadioButton.CheckedChanged += new System.EventHandler(this.CustomRadioButtons_CheckChanged);
+            this.broccoliRadioButton.Click += new System.EventHandler(this.VeggiesRadioButtons_Click);
+            // 
+            // mushroomsRadioButton
+            // 
+            this.mushroomsRadioButton.AutoSize = true;
+            this.mushroomsRadioButton.Depth = 0;
+            this.mushroomsRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.mushroomsRadioButton.Location = new System.Drawing.Point(18, 37);
+            this.mushroomsRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.mushroomsRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.mushroomsRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mushroomsRadioButton.Name = "mushroomsRadioButton";
+            this.mushroomsRadioButton.Ripple = true;
+            this.mushroomsRadioButton.Size = new System.Drawing.Size(103, 30);
+            this.mushroomsRadioButton.TabIndex = 1;
+            this.mushroomsRadioButton.TabStop = true;
+            this.mushroomsRadioButton.Text = "Mushrooms";
+            this.mushroomsRadioButton.UseVisualStyleBackColor = true;
+            this.mushroomsRadioButton.CheckedChanged += new System.EventHandler(this.CustomRadioButtons_CheckChanged);
+            this.mushroomsRadioButton.Click += new System.EventHandler(this.VeggiesRadioButtons_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.parmesanRadioButton);
+            this.groupBox3.Controls.Add(this.provoloneRadioButton);
+            this.groupBox3.Controls.Add(this.mozzerrellaRadioButton);
+            this.groupBox3.Location = new System.Drawing.Point(348, 137);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(261, 208);
+            this.groupBox3.TabIndex = 5;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Cheese";
+            // 
+            // parmesanRadioButton
+            // 
+            this.parmesanRadioButton.AutoSize = true;
+            this.parmesanRadioButton.Depth = 0;
+            this.parmesanRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.parmesanRadioButton.Location = new System.Drawing.Point(18, 97);
+            this.parmesanRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.parmesanRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.parmesanRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.parmesanRadioButton.Name = "parmesanRadioButton";
+            this.parmesanRadioButton.Ripple = true;
+            this.parmesanRadioButton.Size = new System.Drawing.Size(91, 30);
+            this.parmesanRadioButton.TabIndex = 1;
+            this.parmesanRadioButton.TabStop = true;
+            this.parmesanRadioButton.Text = "Parmesan";
+            this.parmesanRadioButton.UseVisualStyleBackColor = true;
+            this.parmesanRadioButton.CheckedChanged += new System.EventHandler(this.CustomRadioButtons_CheckChanged);
+            this.parmesanRadioButton.Click += new System.EventHandler(this.CheeseRadioButtons_Click);
+            // 
+            // provoloneRadioButton
+            // 
+            this.provoloneRadioButton.AutoSize = true;
+            this.provoloneRadioButton.Depth = 0;
+            this.provoloneRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.provoloneRadioButton.Location = new System.Drawing.Point(18, 67);
+            this.provoloneRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.provoloneRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.provoloneRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.provoloneRadioButton.Name = "provoloneRadioButton";
+            this.provoloneRadioButton.Ripple = true;
+            this.provoloneRadioButton.Size = new System.Drawing.Size(91, 30);
+            this.provoloneRadioButton.TabIndex = 1;
+            this.provoloneRadioButton.TabStop = true;
+            this.provoloneRadioButton.Text = "Provolone";
+            this.provoloneRadioButton.UseVisualStyleBackColor = true;
+            this.provoloneRadioButton.CheckedChanged += new System.EventHandler(this.CustomRadioButtons_CheckChanged);
+            this.provoloneRadioButton.Click += new System.EventHandler(this.CheeseRadioButtons_Click);
+            // 
+            // mozzerrellaRadioButton
+            // 
+            this.mozzerrellaRadioButton.AutoSize = true;
+            this.mozzerrellaRadioButton.Depth = 0;
+            this.mozzerrellaRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.mozzerrellaRadioButton.Location = new System.Drawing.Point(18, 37);
+            this.mozzerrellaRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.mozzerrellaRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.mozzerrellaRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mozzerrellaRadioButton.Name = "mozzerrellaRadioButton";
+            this.mozzerrellaRadioButton.Ripple = true;
+            this.mozzerrellaRadioButton.Size = new System.Drawing.Size(97, 30);
+            this.mozzerrellaRadioButton.TabIndex = 1;
+            this.mozzerrellaRadioButton.TabStop = true;
+            this.mozzerrellaRadioButton.Text = "Mozzerella";
+            this.mozzerrellaRadioButton.UseVisualStyleBackColor = true;
+            this.mozzerrellaRadioButton.CheckedChanged += new System.EventHandler(this.CustomRadioButtons_CheckChanged);
+            this.mozzerrellaRadioButton.Click += new System.EventHandler(this.CheeseRadioButtons_Click);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.pictureBox7);
+            this.groupBox2.Controls.Add(this.pictureBox6);
+            this.groupBox2.Controls.Add(this.meatLeftPictureBox);
+            this.groupBox2.Controls.Add(this.pepperoniRadioButton);
+            this.groupBox2.Controls.Add(this.beefRadioButton);
+            this.groupBox2.Controls.Add(this.sausageRadioButton);
+            this.groupBox2.Controls.Add(this.chickenRadioButton);
+            this.groupBox2.Location = new System.Drawing.Point(639, 137);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(261, 208);
+            this.groupBox2.TabIndex = 5;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Meat";
+            // 
+            // pepperoniRadioButton
+            // 
+            this.pepperoniRadioButton.AutoSize = true;
+            this.pepperoniRadioButton.Depth = 0;
+            this.pepperoniRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.pepperoniRadioButton.Location = new System.Drawing.Point(18, 127);
+            this.pepperoniRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.pepperoniRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.pepperoniRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.pepperoniRadioButton.Name = "pepperoniRadioButton";
+            this.pepperoniRadioButton.Ripple = true;
+            this.pepperoniRadioButton.Size = new System.Drawing.Size(92, 30);
+            this.pepperoniRadioButton.TabIndex = 1;
+            this.pepperoniRadioButton.TabStop = true;
+            this.pepperoniRadioButton.Text = "Pepperoni";
+            this.pepperoniRadioButton.UseVisualStyleBackColor = true;
+            this.pepperoniRadioButton.CheckedChanged += new System.EventHandler(this.CustomRadioButtons_CheckChanged);
+            this.pepperoniRadioButton.Click += new System.EventHandler(this.MeatRadioButtons_Click);
+            // 
+            // beefRadioButton
+            // 
+            this.beefRadioButton.AutoSize = true;
+            this.beefRadioButton.Depth = 0;
+            this.beefRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.beefRadioButton.Location = new System.Drawing.Point(18, 97);
+            this.beefRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.beefRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.beefRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.beefRadioButton.Name = "beefRadioButton";
+            this.beefRadioButton.Ripple = true;
+            this.beefRadioButton.Size = new System.Drawing.Size(57, 30);
+            this.beefRadioButton.TabIndex = 1;
+            this.beefRadioButton.TabStop = true;
+            this.beefRadioButton.Text = "Beef";
+            this.beefRadioButton.UseVisualStyleBackColor = true;
+            this.beefRadioButton.CheckedChanged += new System.EventHandler(this.CustomRadioButtons_CheckChanged);
+            this.beefRadioButton.Click += new System.EventHandler(this.MeatRadioButtons_Click);
+            // 
+            // sausageRadioButton
+            // 
+            this.sausageRadioButton.AutoSize = true;
+            this.sausageRadioButton.Depth = 0;
+            this.sausageRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.sausageRadioButton.Location = new System.Drawing.Point(18, 67);
+            this.sausageRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.sausageRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.sausageRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.sausageRadioButton.Name = "sausageRadioButton";
+            this.sausageRadioButton.Ripple = true;
+            this.sausageRadioButton.Size = new System.Drawing.Size(82, 30);
+            this.sausageRadioButton.TabIndex = 1;
+            this.sausageRadioButton.TabStop = true;
+            this.sausageRadioButton.Text = "Sausage";
+            this.sausageRadioButton.UseVisualStyleBackColor = true;
+            this.sausageRadioButton.CheckedChanged += new System.EventHandler(this.CustomRadioButtons_CheckChanged);
+            this.sausageRadioButton.Click += new System.EventHandler(this.MeatRadioButtons_Click);
+            // 
+            // chickenRadioButton
+            // 
+            this.chickenRadioButton.AutoSize = true;
+            this.chickenRadioButton.Depth = 0;
+            this.chickenRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.chickenRadioButton.Location = new System.Drawing.Point(18, 37);
+            this.chickenRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.chickenRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chickenRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chickenRadioButton.Name = "chickenRadioButton";
+            this.chickenRadioButton.Ripple = true;
+            this.chickenRadioButton.Size = new System.Drawing.Size(78, 30);
+            this.chickenRadioButton.TabIndex = 1;
+            this.chickenRadioButton.TabStop = true;
+            this.chickenRadioButton.Text = "Chicken";
+            this.chickenRadioButton.UseVisualStyleBackColor = true;
+            this.chickenRadioButton.CheckedChanged += new System.EventHandler(this.CustomRadioButtons_CheckChanged);
+            this.chickenRadioButton.Click += new System.EventHandler(this.MeatRadioButtons_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.tomatoRadioButton);
+            this.groupBox1.Controls.Add(this.alfredoRadioButton);
+            this.groupBox1.Location = new System.Drawing.Point(54, 137);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(261, 208);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Sauce";
+            // 
+            // tomatoRadioButton
+            // 
+            this.tomatoRadioButton.AutoSize = true;
+            this.tomatoRadioButton.Depth = 0;
+            this.tomatoRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.tomatoRadioButton.Location = new System.Drawing.Point(18, 67);
+            this.tomatoRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.tomatoRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.tomatoRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tomatoRadioButton.Name = "tomatoRadioButton";
+            this.tomatoRadioButton.Ripple = true;
+            this.tomatoRadioButton.Size = new System.Drawing.Size(77, 30);
+            this.tomatoRadioButton.TabIndex = 1;
+            this.tomatoRadioButton.TabStop = true;
+            this.tomatoRadioButton.Text = "Tomato";
+            this.tomatoRadioButton.UseVisualStyleBackColor = true;
+            this.tomatoRadioButton.CheckedChanged += new System.EventHandler(this.CustomRadioButtons_CheckChanged);
+            this.tomatoRadioButton.Click += new System.EventHandler(this.SauceRadioButtons_Click);
+            // 
+            // alfredoRadioButton
+            // 
+            this.alfredoRadioButton.AutoSize = true;
+            this.alfredoRadioButton.Depth = 0;
+            this.alfredoRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.alfredoRadioButton.Location = new System.Drawing.Point(18, 37);
+            this.alfredoRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.alfredoRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.alfredoRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.alfredoRadioButton.Name = "alfredoRadioButton";
+            this.alfredoRadioButton.Ripple = true;
+            this.alfredoRadioButton.Size = new System.Drawing.Size(74, 30);
+            this.alfredoRadioButton.TabIndex = 1;
+            this.alfredoRadioButton.TabStop = true;
+            this.alfredoRadioButton.Text = "Alfredo";
+            this.alfredoRadioButton.UseVisualStyleBackColor = true;
+            this.alfredoRadioButton.CheckedChanged += new System.EventHandler(this.CustomRadioButtons_CheckChanged);
+            this.alfredoRadioButton.Click += new System.EventHandler(this.SauceRadioButtons_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(23, 21);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(292, 37);
+            this.label11.TabIndex = 2;
+            this.label11.Text = " Craft Your Own Pizza";
             // 
             // specialsButton
             // 
@@ -212,144 +644,6 @@
             this.customButton.UseVisualStyleBackColor = true;
             this.customButton.Click += new System.EventHandler(this.TabControlButtons_Click);
             // 
-            // pizzaListLabel
-            // 
-            this.pizzaListLabel.AutoSize = true;
-            this.pizzaListLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pizzaListLabel.Location = new System.Drawing.Point(23, 23);
-            this.pizzaListLabel.Name = "pizzaListLabel";
-            this.pizzaListLabel.Size = new System.Drawing.Size(240, 37);
-            this.pizzaListLabel.TabIndex = 1;
-            this.pizzaListLabel.Text = "CATRINA\'S PICKS";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 325);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 30);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Meat Lovers";
-            // 
-            // label3
-            // 
-            this.label3.Location = new System.Drawing.Point(34, 355);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(138, 66);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Pepperoni, sausage, and bacon";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(344, 324);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 30);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Cheese Lovers";
-            // 
-            // label5
-            // 
-            this.label5.Location = new System.Drawing.Point(345, 355);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 52);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "The classic cheese pizza";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(651, 325);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(149, 30);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Veggie Lovers";
-            // 
-            // label7
-            // 
-            this.label7.Location = new System.Drawing.Point(652, 355);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(173, 66);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Broccoli, onions, mushrooms, black olives, and red peppers";
-            // 
-            // meatButton
-            // 
-            this.meatButton.BackColor = System.Drawing.Color.ForestGreen;
-            this.meatButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.meatButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.meatButton.ForeColor = System.Drawing.Color.White;
-            this.meatButton.Location = new System.Drawing.Point(189, 325);
-            this.meatButton.Name = "meatButton";
-            this.meatButton.Size = new System.Drawing.Size(74, 35);
-            this.meatButton.TabIndex = 3;
-            this.meatButton.Text = "Select";
-            this.meatButton.UseVisualStyleBackColor = false;
-            this.meatButton.Click += new System.EventHandler(this.SpecialtyPizzaButtons_Click);
-            // 
-            // cheeseButton
-            // 
-            this.cheeseButton.BackColor = System.Drawing.Color.ForestGreen;
-            this.cheeseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cheeseButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cheeseButton.ForeColor = System.Drawing.Color.White;
-            this.cheeseButton.Location = new System.Drawing.Point(500, 324);
-            this.cheeseButton.Name = "cheeseButton";
-            this.cheeseButton.Size = new System.Drawing.Size(74, 35);
-            this.cheeseButton.TabIndex = 3;
-            this.cheeseButton.Text = "Select";
-            this.cheeseButton.UseVisualStyleBackColor = false;
-            this.cheeseButton.Click += new System.EventHandler(this.SpecialtyPizzaButtons_Click);
-            // 
-            // veggieButton
-            // 
-            this.veggieButton.BackColor = System.Drawing.Color.ForestGreen;
-            this.veggieButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.veggieButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.veggieButton.ForeColor = System.Drawing.Color.White;
-            this.veggieButton.Location = new System.Drawing.Point(807, 325);
-            this.veggieButton.Name = "veggieButton";
-            this.veggieButton.Size = new System.Drawing.Size(74, 35);
-            this.veggieButton.TabIndex = 3;
-            this.veggieButton.Text = "Select";
-            this.veggieButton.UseVisualStyleBackColor = false;
-            this.veggieButton.Click += new System.EventHandler(this.SpecialtyPizzaButtons_Click);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(952, 325);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(88, 30);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "Italiano";
-            // 
-            // label9
-            // 
-            this.label9.Location = new System.Drawing.Point(953, 355);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(173, 66);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Catrina\'s Special Italiano";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.ForestGreen;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(1108, 325);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(74, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Select";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.SpecialtyPizzaButtons_Click);
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -372,6 +666,61 @@
             this.sizeGroupbox.TabIndex = 4;
             this.sizeGroupbox.TabStop = false;
             this.sizeGroupbox.Text = "Size";
+            // 
+            // largeSizeRadioButton
+            // 
+            this.largeSizeRadioButton.AutoSize = true;
+            this.largeSizeRadioButton.Depth = 0;
+            this.largeSizeRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.largeSizeRadioButton.Location = new System.Drawing.Point(18, 127);
+            this.largeSizeRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.largeSizeRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.largeSizeRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.largeSizeRadioButton.Name = "largeSizeRadioButton";
+            this.largeSizeRadioButton.Ripple = true;
+            this.largeSizeRadioButton.Size = new System.Drawing.Size(64, 30);
+            this.largeSizeRadioButton.TabIndex = 1;
+            this.largeSizeRadioButton.TabStop = true;
+            this.largeSizeRadioButton.Text = "Large";
+            this.largeSizeRadioButton.UseVisualStyleBackColor = true;
+            this.largeSizeRadioButton.Click += new System.EventHandler(this.SizeRadioButtons_Click);
+            // 
+            // mediumSizeRadioButton
+            // 
+            this.mediumSizeRadioButton.AutoSize = true;
+            this.mediumSizeRadioButton.Checked = true;
+            this.mediumSizeRadioButton.Depth = 0;
+            this.mediumSizeRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.mediumSizeRadioButton.Location = new System.Drawing.Point(18, 97);
+            this.mediumSizeRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.mediumSizeRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.mediumSizeRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mediumSizeRadioButton.Name = "mediumSizeRadioButton";
+            this.mediumSizeRadioButton.Ripple = true;
+            this.mediumSizeRadioButton.Size = new System.Drawing.Size(79, 30);
+            this.mediumSizeRadioButton.TabIndex = 1;
+            this.mediumSizeRadioButton.TabStop = true;
+            this.mediumSizeRadioButton.Text = "Medium";
+            this.mediumSizeRadioButton.UseVisualStyleBackColor = true;
+            this.mediumSizeRadioButton.Click += new System.EventHandler(this.SizeRadioButtons_Click);
+            // 
+            // smallSizeRadioButton
+            // 
+            this.smallSizeRadioButton.AutoSize = true;
+            this.smallSizeRadioButton.Depth = 0;
+            this.smallSizeRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.smallSizeRadioButton.Location = new System.Drawing.Point(18, 67);
+            this.smallSizeRadioButton.Margin = new System.Windows.Forms.Padding(0);
+            this.smallSizeRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.smallSizeRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.smallSizeRadioButton.Name = "smallSizeRadioButton";
+            this.smallSizeRadioButton.Ripple = true;
+            this.smallSizeRadioButton.Size = new System.Drawing.Size(64, 30);
+            this.smallSizeRadioButton.TabIndex = 1;
+            this.smallSizeRadioButton.TabStop = true;
+            this.smallSizeRadioButton.Text = "Small";
+            this.smallSizeRadioButton.UseVisualStyleBackColor = true;
+            this.smallSizeRadioButton.Click += new System.EventHandler(this.SizeRadioButtons_Click);
             // 
             // personalSizeRadioButton
             // 
@@ -416,6 +765,7 @@
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.orderPictureBox);
             this.panel1.Controls.Add(this.sizeGroupbox);
+            this.panel1.Controls.Add(this.clearCartButton);
             this.panel1.Controls.Add(this.restartButton);
             this.panel1.Controls.Add(this.addToCartButton);
             this.panel1.Controls.Add(this.checkoutButton);
@@ -425,75 +775,6 @@
             this.panel1.Size = new System.Drawing.Size(1457, 327);
             this.panel1.TabIndex = 6;
             // 
-            // smallSizeRadioButton
-            // 
-            this.smallSizeRadioButton.AutoSize = true;
-            this.smallSizeRadioButton.Depth = 0;
-            this.smallSizeRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.smallSizeRadioButton.Location = new System.Drawing.Point(18, 67);
-            this.smallSizeRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.smallSizeRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.smallSizeRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.smallSizeRadioButton.Name = "smallSizeRadioButton";
-            this.smallSizeRadioButton.Ripple = true;
-            this.smallSizeRadioButton.Size = new System.Drawing.Size(64, 30);
-            this.smallSizeRadioButton.TabIndex = 1;
-            this.smallSizeRadioButton.TabStop = true;
-            this.smallSizeRadioButton.Text = "Small";
-            this.smallSizeRadioButton.UseVisualStyleBackColor = true;
-            this.smallSizeRadioButton.Click += new System.EventHandler(this.SizeRadioButtons_Click);
-            // 
-            // mediumSizeRadioButton
-            // 
-            this.mediumSizeRadioButton.AutoSize = true;
-            this.mediumSizeRadioButton.Checked = true;
-            this.mediumSizeRadioButton.Depth = 0;
-            this.mediumSizeRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.mediumSizeRadioButton.Location = new System.Drawing.Point(18, 97);
-            this.mediumSizeRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.mediumSizeRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.mediumSizeRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mediumSizeRadioButton.Name = "mediumSizeRadioButton";
-            this.mediumSizeRadioButton.Ripple = true;
-            this.mediumSizeRadioButton.Size = new System.Drawing.Size(79, 30);
-            this.mediumSizeRadioButton.TabIndex = 1;
-            this.mediumSizeRadioButton.TabStop = true;
-            this.mediumSizeRadioButton.Text = "Medium";
-            this.mediumSizeRadioButton.UseVisualStyleBackColor = true;
-            this.mediumSizeRadioButton.Click += new System.EventHandler(this.SizeRadioButtons_Click);
-            // 
-            // largeSizeRadioButton
-            // 
-            this.largeSizeRadioButton.AutoSize = true;
-            this.largeSizeRadioButton.Depth = 0;
-            this.largeSizeRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.largeSizeRadioButton.Location = new System.Drawing.Point(18, 127);
-            this.largeSizeRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.largeSizeRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.largeSizeRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.largeSizeRadioButton.Name = "largeSizeRadioButton";
-            this.largeSizeRadioButton.Ripple = true;
-            this.largeSizeRadioButton.Size = new System.Drawing.Size(64, 30);
-            this.largeSizeRadioButton.TabIndex = 1;
-            this.largeSizeRadioButton.TabStop = true;
-            this.largeSizeRadioButton.Text = "Large";
-            this.largeSizeRadioButton.UseVisualStyleBackColor = true;
-            this.largeSizeRadioButton.Click += new System.EventHandler(this.SizeRadioButtons_Click);
-            // 
-            // checkoutButton
-            // 
-            this.checkoutButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkoutButton.BackColor = System.Drawing.Color.ForestGreen;
-            this.checkoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkoutButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkoutButton.ForeColor = System.Drawing.Color.White;
-            this.checkoutButton.Location = new System.Drawing.Point(1162, 270);
-            this.checkoutButton.Name = "checkoutButton";
-            this.checkoutButton.Size = new System.Drawing.Size(275, 35);
-            this.checkoutButton.TabIndex = 3;
-            this.checkoutButton.Text = "Proceed to Checkout";
-            this.checkoutButton.UseVisualStyleBackColor = false;
-            // 
             // restartButton
             // 
             this.restartButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -502,12 +783,13 @@
             this.restartButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.restartButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.restartButton.ForeColor = System.Drawing.Color.Red;
-            this.restartButton.Location = new System.Drawing.Point(967, 270);
+            this.restartButton.Location = new System.Drawing.Point(916, 270);
             this.restartButton.Name = "restartButton";
-            this.restartButton.Size = new System.Drawing.Size(163, 35);
+            this.restartButton.Size = new System.Drawing.Size(209, 35);
             this.restartButton.TabIndex = 3;
-            this.restartButton.Text = "Restart Order";
+            this.restartButton.Text = "Clear My Choices";
             this.restartButton.UseVisualStyleBackColor = false;
+            this.restartButton.Click += new System.EventHandler(this.restartButton_Click);
             // 
             // addToCartButton
             // 
@@ -522,280 +804,27 @@
             this.addToCartButton.TabIndex = 3;
             this.addToCartButton.Text = "Add to Cart";
             this.addToCartButton.UseVisualStyleBackColor = false;
+            this.addToCartButton.Click += new System.EventHandler(this.addToCartButton_Click);
             // 
-            // label11
+            // checkoutButton
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(23, 21);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(292, 37);
-            this.label11.TabIndex = 2;
-            this.label11.Text = " Craft Your Own Pizza";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.tomatoRadioButton);
-            this.groupBox1.Controls.Add(this.alfredoRadioButton);
-            this.groupBox1.Location = new System.Drawing.Point(54, 137);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(261, 208);
-            this.groupBox1.TabIndex = 5;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Sauce";
-            // 
-            // tomatoRadioButton
-            // 
-            this.tomatoRadioButton.AutoSize = true;
-            this.tomatoRadioButton.Depth = 0;
-            this.tomatoRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.tomatoRadioButton.Location = new System.Drawing.Point(18, 67);
-            this.tomatoRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.tomatoRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.tomatoRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.tomatoRadioButton.Name = "tomatoRadioButton";
-            this.tomatoRadioButton.Ripple = true;
-            this.tomatoRadioButton.Size = new System.Drawing.Size(77, 30);
-            this.tomatoRadioButton.TabIndex = 1;
-            this.tomatoRadioButton.TabStop = true;
-            this.tomatoRadioButton.Text = "Tomato";
-            this.tomatoRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // alfredoRadioButton
-            // 
-            this.alfredoRadioButton.AutoSize = true;
-            this.alfredoRadioButton.Depth = 0;
-            this.alfredoRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.alfredoRadioButton.Location = new System.Drawing.Point(18, 37);
-            this.alfredoRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.alfredoRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.alfredoRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.alfredoRadioButton.Name = "alfredoRadioButton";
-            this.alfredoRadioButton.Ripple = true;
-            this.alfredoRadioButton.Size = new System.Drawing.Size(74, 30);
-            this.alfredoRadioButton.TabIndex = 1;
-            this.alfredoRadioButton.TabStop = true;
-            this.alfredoRadioButton.Text = "Alfredo";
-            this.alfredoRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.pictureBox7);
-            this.groupBox2.Controls.Add(this.pictureBox6);
-            this.groupBox2.Controls.Add(this.meatLeftPictureBox);
-            this.groupBox2.Controls.Add(this.pepperoniRadioButton);
-            this.groupBox2.Controls.Add(this.beefRadioButton);
-            this.groupBox2.Controls.Add(this.sausageRadioButton);
-            this.groupBox2.Controls.Add(this.chickenRadioButton);
-            this.groupBox2.Location = new System.Drawing.Point(639, 137);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(261, 208);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Meat";
-            // 
-            // pepperoniRadioButton
-            // 
-            this.pepperoniRadioButton.AutoSize = true;
-            this.pepperoniRadioButton.Depth = 0;
-            this.pepperoniRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.pepperoniRadioButton.Location = new System.Drawing.Point(18, 127);
-            this.pepperoniRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.pepperoniRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.pepperoniRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.pepperoniRadioButton.Name = "pepperoniRadioButton";
-            this.pepperoniRadioButton.Ripple = true;
-            this.pepperoniRadioButton.Size = new System.Drawing.Size(92, 30);
-            this.pepperoniRadioButton.TabIndex = 1;
-            this.pepperoniRadioButton.TabStop = true;
-            this.pepperoniRadioButton.Text = "Pepperoni";
-            this.pepperoniRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // beefRadioButton
-            // 
-            this.beefRadioButton.AutoSize = true;
-            this.beefRadioButton.Depth = 0;
-            this.beefRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.beefRadioButton.Location = new System.Drawing.Point(18, 97);
-            this.beefRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.beefRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.beefRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.beefRadioButton.Name = "beefRadioButton";
-            this.beefRadioButton.Ripple = true;
-            this.beefRadioButton.Size = new System.Drawing.Size(57, 30);
-            this.beefRadioButton.TabIndex = 1;
-            this.beefRadioButton.TabStop = true;
-            this.beefRadioButton.Text = "Beef";
-            this.beefRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // sausageRadioButton
-            // 
-            this.sausageRadioButton.AutoSize = true;
-            this.sausageRadioButton.Depth = 0;
-            this.sausageRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.sausageRadioButton.Location = new System.Drawing.Point(18, 67);
-            this.sausageRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.sausageRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.sausageRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.sausageRadioButton.Name = "sausageRadioButton";
-            this.sausageRadioButton.Ripple = true;
-            this.sausageRadioButton.Size = new System.Drawing.Size(82, 30);
-            this.sausageRadioButton.TabIndex = 1;
-            this.sausageRadioButton.TabStop = true;
-            this.sausageRadioButton.Text = "Sausage";
-            this.sausageRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // chickenRadioButton
-            // 
-            this.chickenRadioButton.AutoSize = true;
-            this.chickenRadioButton.Depth = 0;
-            this.chickenRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.chickenRadioButton.Location = new System.Drawing.Point(18, 37);
-            this.chickenRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.chickenRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chickenRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chickenRadioButton.Name = "chickenRadioButton";
-            this.chickenRadioButton.Ripple = true;
-            this.chickenRadioButton.Size = new System.Drawing.Size(78, 30);
-            this.chickenRadioButton.TabIndex = 1;
-            this.chickenRadioButton.TabStop = true;
-            this.chickenRadioButton.Text = "Chicken";
-            this.chickenRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.parmesanRadioButton);
-            this.groupBox3.Controls.Add(this.provoloneRadioButton);
-            this.groupBox3.Controls.Add(this.mozzerrellaRadioButton);
-            this.groupBox3.Location = new System.Drawing.Point(348, 137);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(261, 208);
-            this.groupBox3.TabIndex = 5;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Cheese";
-            // 
-            // parmesanRadioButton
-            // 
-            this.parmesanRadioButton.AutoSize = true;
-            this.parmesanRadioButton.Depth = 0;
-            this.parmesanRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.parmesanRadioButton.Location = new System.Drawing.Point(18, 97);
-            this.parmesanRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.parmesanRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.parmesanRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.parmesanRadioButton.Name = "parmesanRadioButton";
-            this.parmesanRadioButton.Ripple = true;
-            this.parmesanRadioButton.Size = new System.Drawing.Size(91, 30);
-            this.parmesanRadioButton.TabIndex = 1;
-            this.parmesanRadioButton.TabStop = true;
-            this.parmesanRadioButton.Text = "Parmesan";
-            this.parmesanRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // provoloneRadioButton
-            // 
-            this.provoloneRadioButton.AutoSize = true;
-            this.provoloneRadioButton.Depth = 0;
-            this.provoloneRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.provoloneRadioButton.Location = new System.Drawing.Point(18, 67);
-            this.provoloneRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.provoloneRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.provoloneRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.provoloneRadioButton.Name = "provoloneRadioButton";
-            this.provoloneRadioButton.Ripple = true;
-            this.provoloneRadioButton.Size = new System.Drawing.Size(91, 30);
-            this.provoloneRadioButton.TabIndex = 1;
-            this.provoloneRadioButton.TabStop = true;
-            this.provoloneRadioButton.Text = "Provolone";
-            this.provoloneRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // mozzerrellaRadioButton
-            // 
-            this.mozzerrellaRadioButton.AutoSize = true;
-            this.mozzerrellaRadioButton.Depth = 0;
-            this.mozzerrellaRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.mozzerrellaRadioButton.Location = new System.Drawing.Point(18, 37);
-            this.mozzerrellaRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.mozzerrellaRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.mozzerrellaRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mozzerrellaRadioButton.Name = "mozzerrellaRadioButton";
-            this.mozzerrellaRadioButton.Ripple = true;
-            this.mozzerrellaRadioButton.Size = new System.Drawing.Size(97, 30);
-            this.mozzerrellaRadioButton.TabIndex = 1;
-            this.mozzerrellaRadioButton.TabStop = true;
-            this.mozzerrellaRadioButton.Text = "Mozzerella";
-            this.mozzerrellaRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.pictureBox12);
-            this.groupBox4.Controls.Add(this.spinachRadioButton);
-            this.groupBox4.Controls.Add(this.pictureBox11);
-            this.groupBox4.Controls.Add(this.broccoliRadioButton);
-            this.groupBox4.Controls.Add(this.mushroomsRadioButton);
-            this.groupBox4.Controls.Add(this.pictureBox10);
-            this.groupBox4.Location = new System.Drawing.Point(932, 137);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(261, 208);
-            this.groupBox4.TabIndex = 5;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Veggies";
-            // 
-            // spinachRadioButton
-            // 
-            this.spinachRadioButton.AutoSize = true;
-            this.spinachRadioButton.Depth = 0;
-            this.spinachRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.spinachRadioButton.Location = new System.Drawing.Point(18, 97);
-            this.spinachRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.spinachRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.spinachRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.spinachRadioButton.Name = "spinachRadioButton";
-            this.spinachRadioButton.Ripple = true;
-            this.spinachRadioButton.Size = new System.Drawing.Size(78, 30);
-            this.spinachRadioButton.TabIndex = 1;
-            this.spinachRadioButton.TabStop = true;
-            this.spinachRadioButton.Text = "Spinach";
-            this.spinachRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // broccoliRadioButton
-            // 
-            this.broccoliRadioButton.AutoSize = true;
-            this.broccoliRadioButton.Depth = 0;
-            this.broccoliRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.broccoliRadioButton.Location = new System.Drawing.Point(18, 67);
-            this.broccoliRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.broccoliRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.broccoliRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.broccoliRadioButton.Name = "broccoliRadioButton";
-            this.broccoliRadioButton.Ripple = true;
-            this.broccoliRadioButton.Size = new System.Drawing.Size(79, 30);
-            this.broccoliRadioButton.TabIndex = 1;
-            this.broccoliRadioButton.TabStop = true;
-            this.broccoliRadioButton.Text = "Broccoli";
-            this.broccoliRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // mushroomsRadioButton
-            // 
-            this.mushroomsRadioButton.AutoSize = true;
-            this.mushroomsRadioButton.Depth = 0;
-            this.mushroomsRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.mushroomsRadioButton.Location = new System.Drawing.Point(18, 37);
-            this.mushroomsRadioButton.Margin = new System.Windows.Forms.Padding(0);
-            this.mushroomsRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.mushroomsRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mushroomsRadioButton.Name = "mushroomsRadioButton";
-            this.mushroomsRadioButton.Ripple = true;
-            this.mushroomsRadioButton.Size = new System.Drawing.Size(103, 30);
-            this.mushroomsRadioButton.TabIndex = 1;
-            this.mushroomsRadioButton.TabStop = true;
-            this.mushroomsRadioButton.Text = "Mushrooms";
-            this.mushroomsRadioButton.UseVisualStyleBackColor = true;
+            this.checkoutButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkoutButton.BackColor = System.Drawing.Color.ForestGreen;
+            this.checkoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkoutButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkoutButton.ForeColor = System.Drawing.Color.White;
+            this.checkoutButton.Location = new System.Drawing.Point(1162, 270);
+            this.checkoutButton.Name = "checkoutButton";
+            this.checkoutButton.Size = new System.Drawing.Size(275, 35);
+            this.checkoutButton.TabIndex = 3;
+            this.checkoutButton.Text = "Proceed to Checkout";
+            this.checkoutButton.UseVisualStyleBackColor = false;
+            this.checkoutButton.Click += new System.EventHandler(this.checkoutButton_Click);
             // 
             // orderPictureBox
             // 
             this.orderPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.orderPictureBox.Image = global::pizza.Properties.Resources.pepperoni_pizza;
+            this.orderPictureBox.Image = global::pizza.Properties.Resources.crust_handtossed;
             this.orderPictureBox.Location = new System.Drawing.Point(30, 84);
             this.orderPictureBox.Name = "orderPictureBox";
             this.orderPictureBox.Size = new System.Drawing.Size(225, 208);
@@ -843,6 +872,39 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox12.Image = global::pizza.Properties.Resources.button_right;
+            this.pictureBox12.Location = new System.Drawing.Point(230, 177);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 6;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox11.Image = global::pizza.Properties.Resources.button_whole_selected;
+            this.pictureBox11.Location = new System.Drawing.Point(199, 177);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 6;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox10.Image = global::pizza.Properties.Resources.button_left;
+            this.pictureBox10.Location = new System.Drawing.Point(168, 177);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 6;
+            this.pictureBox10.TabStop = false;
+            // 
             // pictureBox7
             // 
             this.pictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -876,38 +938,21 @@
             this.meatLeftPictureBox.TabIndex = 6;
             this.meatLeftPictureBox.TabStop = false;
             // 
-            // pictureBox10
+            // clearCartButton
             // 
-            this.pictureBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox10.Image = global::pizza.Properties.Resources.button_left;
-            this.pictureBox10.Location = new System.Drawing.Point(168, 177);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 6;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox11.Image = global::pizza.Properties.Resources.button_whole_selected;
-            this.pictureBox11.Location = new System.Drawing.Point(199, 177);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 6;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox12.Image = global::pizza.Properties.Resources.button_right;
-            this.pictureBox12.Location = new System.Drawing.Point(230, 177);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 6;
-            this.pictureBox12.TabStop = false;
+            this.clearCartButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.clearCartButton.BackColor = System.Drawing.Color.Transparent;
+            this.clearCartButton.FlatAppearance.BorderSize = 0;
+            this.clearCartButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.clearCartButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearCartButton.ForeColor = System.Drawing.Color.Red;
+            this.clearCartButton.Location = new System.Drawing.Point(701, 270);
+            this.clearCartButton.Name = "clearCartButton";
+            this.clearCartButton.Size = new System.Drawing.Size(209, 35);
+            this.clearCartButton.TabIndex = 3;
+            this.clearCartButton.Text = "Clear Cart";
+            this.clearCartButton.UseVisualStyleBackColor = false;
+            this.clearCartButton.Click += new System.EventHandler(this.clearCartButton_Click);
             // 
             // PizzaPickerForm
             // 
@@ -931,29 +976,29 @@
             this.specialsTab.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.sizeGroupbox.ResumeLayout(false);
             this.sizeGroupbox.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.orderPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.meatLeftPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1019,6 +1064,7 @@
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.Button clearCartButton;
     }
 }
 
