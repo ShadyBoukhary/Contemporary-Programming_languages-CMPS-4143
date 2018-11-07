@@ -72,6 +72,7 @@
             this.personalSizeRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
             this.materialRadioButton3 = new MaterialSkin.Controls.MaterialRadioButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.clearCartButton = new System.Windows.Forms.Button();
             this.restartButton = new System.Windows.Forms.Button();
             this.addToCartButton = new System.Windows.Forms.Button();
             this.checkoutButton = new System.Windows.Forms.Button();
@@ -80,13 +81,32 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.veggiesRightPicturebox = new System.Windows.Forms.PictureBox();
+            this.veggiesMiddlePictureBox = new System.Windows.Forms.PictureBox();
+            this.veggiesLeftPicturebox = new System.Windows.Forms.PictureBox();
+            this.meatRightPicturebox = new System.Windows.Forms.PictureBox();
+            this.meatMiddlePicturebox = new System.Windows.Forms.PictureBox();
             this.meatLeftPictureBox = new System.Windows.Forms.PictureBox();
-            this.clearCartButton = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel11 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel12 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel15 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
             this.tabControl.SuspendLayout();
             this.specialsTab.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -101,25 +121,26 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.veggiesRightPicturebox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.veggiesMiddlePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.veggiesLeftPicturebox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meatRightPicturebox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meatMiddlePicturebox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.meatLeftPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe Script", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(487, 40);
+            this.label1.Location = new System.Drawing.Point(533, 34);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(254, 31);
+            this.label1.Size = new System.Drawing.Size(452, 80);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Catrina\'s Pizza";
+            this.label1.Text = "Caterina\'s Pizza";
             // 
             // tabControl
             // 
@@ -133,11 +154,15 @@
             this.tabControl.MouseState = MaterialSkin.MouseState.HOVER;
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(1465, 506);
+            this.tabControl.Size = new System.Drawing.Size(1465, 485);
             this.tabControl.TabIndex = 1;
             // 
             // specialsTab
             // 
+            this.specialsTab.Controls.Add(this.label15);
+            this.specialsTab.Controls.Add(this.label14);
+            this.specialsTab.Controls.Add(this.label13);
+            this.specialsTab.Controls.Add(this.label12);
             this.specialsTab.Controls.Add(this.button1);
             this.specialsTab.Controls.Add(this.veggieButton);
             this.specialsTab.Controls.Add(this.cheeseButton);
@@ -158,7 +183,7 @@
             this.specialsTab.Location = new System.Drawing.Point(4, 30);
             this.specialsTab.Name = "specialsTab";
             this.specialsTab.Padding = new System.Windows.Forms.Padding(3);
-            this.specialsTab.Size = new System.Drawing.Size(1457, 472);
+            this.specialsTab.Size = new System.Drawing.Size(1457, 451);
             this.specialsTab.TabIndex = 0;
             this.specialsTab.Text = "Specials";
             this.specialsTab.UseVisualStyleBackColor = true;
@@ -313,18 +338,21 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 30);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1457, 472);
+            this.tabPage2.Size = new System.Drawing.Size(1457, 451);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Custom";
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.pictureBox12);
+            this.groupBox4.Controls.Add(this.veggiesRightPicturebox);
             this.groupBox4.Controls.Add(this.spinachRadioButton);
-            this.groupBox4.Controls.Add(this.pictureBox11);
+            this.groupBox4.Controls.Add(this.materialLabel16);
+            this.groupBox4.Controls.Add(this.materialLabel12);
+            this.groupBox4.Controls.Add(this.materialLabel11);
+            this.groupBox4.Controls.Add(this.veggiesMiddlePictureBox);
             this.groupBox4.Controls.Add(this.broccoliRadioButton);
             this.groupBox4.Controls.Add(this.mushroomsRadioButton);
-            this.groupBox4.Controls.Add(this.pictureBox10);
+            this.groupBox4.Controls.Add(this.veggiesLeftPicturebox);
             this.groupBox4.Location = new System.Drawing.Point(932, 137);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(261, 208);
@@ -393,6 +421,9 @@
             // 
             this.groupBox3.Controls.Add(this.parmesanRadioButton);
             this.groupBox3.Controls.Add(this.provoloneRadioButton);
+            this.groupBox3.Controls.Add(this.materialLabel13);
+            this.groupBox3.Controls.Add(this.materialLabel8);
+            this.groupBox3.Controls.Add(this.materialLabel7);
             this.groupBox3.Controls.Add(this.mozzerrellaRadioButton);
             this.groupBox3.Location = new System.Drawing.Point(348, 137);
             this.groupBox3.Name = "groupBox3";
@@ -460,8 +491,12 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.pictureBox7);
-            this.groupBox2.Controls.Add(this.pictureBox6);
+            this.groupBox2.Controls.Add(this.meatRightPicturebox);
+            this.groupBox2.Controls.Add(this.meatMiddlePicturebox);
+            this.groupBox2.Controls.Add(this.materialLabel15);
+            this.groupBox2.Controls.Add(this.materialLabel14);
+            this.groupBox2.Controls.Add(this.materialLabel10);
+            this.groupBox2.Controls.Add(this.materialLabel9);
             this.groupBox2.Controls.Add(this.meatLeftPictureBox);
             this.groupBox2.Controls.Add(this.pepperoniRadioButton);
             this.groupBox2.Controls.Add(this.beefRadioButton);
@@ -554,6 +589,8 @@
             // 
             this.groupBox1.Controls.Add(this.tomatoRadioButton);
             this.groupBox1.Controls.Add(this.alfredoRadioButton);
+            this.groupBox1.Controls.Add(this.materialLabel6);
+            this.groupBox1.Controls.Add(this.materialLabel5);
             this.groupBox1.Location = new System.Drawing.Point(54, 137);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(261, 208);
@@ -656,6 +693,10 @@
             // 
             // sizeGroupbox
             // 
+            this.sizeGroupbox.Controls.Add(this.materialLabel4);
+            this.sizeGroupbox.Controls.Add(this.materialLabel3);
+            this.sizeGroupbox.Controls.Add(this.materialLabel2);
+            this.sizeGroupbox.Controls.Add(this.materialLabel1);
             this.sizeGroupbox.Controls.Add(this.largeSizeRadioButton);
             this.sizeGroupbox.Controls.Add(this.mediumSizeRadioButton);
             this.sizeGroupbox.Controls.Add(this.smallSizeRadioButton);
@@ -770,10 +811,26 @@
             this.panel1.Controls.Add(this.addToCartButton);
             this.panel1.Controls.Add(this.checkoutButton);
             this.panel1.Controls.Add(this.label10);
-            this.panel1.Location = new System.Drawing.Point(15, 667);
+            this.panel1.Location = new System.Drawing.Point(11, 646);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1457, 327);
+            this.panel1.Size = new System.Drawing.Size(1461, 348);
             this.panel1.TabIndex = 6;
+            // 
+            // clearCartButton
+            // 
+            this.clearCartButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.clearCartButton.BackColor = System.Drawing.Color.Transparent;
+            this.clearCartButton.FlatAppearance.BorderSize = 0;
+            this.clearCartButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.clearCartButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearCartButton.ForeColor = System.Drawing.Color.Red;
+            this.clearCartButton.Location = new System.Drawing.Point(705, 291);
+            this.clearCartButton.Name = "clearCartButton";
+            this.clearCartButton.Size = new System.Drawing.Size(209, 35);
+            this.clearCartButton.TabIndex = 3;
+            this.clearCartButton.Text = "Clear Cart";
+            this.clearCartButton.UseVisualStyleBackColor = false;
+            this.clearCartButton.Click += new System.EventHandler(this.clearCartButton_Click);
             // 
             // restartButton
             // 
@@ -783,7 +840,7 @@
             this.restartButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.restartButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.restartButton.ForeColor = System.Drawing.Color.Red;
-            this.restartButton.Location = new System.Drawing.Point(916, 270);
+            this.restartButton.Location = new System.Drawing.Point(920, 291);
             this.restartButton.Name = "restartButton";
             this.restartButton.Size = new System.Drawing.Size(209, 35);
             this.restartButton.TabIndex = 3;
@@ -798,7 +855,7 @@
             this.addToCartButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addToCartButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addToCartButton.ForeColor = System.Drawing.Color.White;
-            this.addToCartButton.Location = new System.Drawing.Point(1294, 16);
+            this.addToCartButton.Location = new System.Drawing.Point(1298, 16);
             this.addToCartButton.Name = "addToCartButton";
             this.addToCartButton.Size = new System.Drawing.Size(143, 35);
             this.addToCartButton.TabIndex = 3;
@@ -813,7 +870,7 @@
             this.checkoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkoutButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkoutButton.ForeColor = System.Drawing.Color.White;
-            this.checkoutButton.Location = new System.Drawing.Point(1162, 270);
+            this.checkoutButton.Location = new System.Drawing.Point(1166, 291);
             this.checkoutButton.Name = "checkoutButton";
             this.checkoutButton.Size = new System.Drawing.Size(275, 35);
             this.checkoutButton.TabIndex = 3;
@@ -872,60 +929,65 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
-            // pictureBox12
+            // veggiesRightPicturebox
             // 
-            this.pictureBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox12.Image = global::pizza.Properties.Resources.button_right;
-            this.pictureBox12.Location = new System.Drawing.Point(230, 177);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 6;
-            this.pictureBox12.TabStop = false;
+            this.veggiesRightPicturebox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.veggiesRightPicturebox.Image = global::pizza.Properties.Resources.button_right;
+            this.veggiesRightPicturebox.Location = new System.Drawing.Point(230, 177);
+            this.veggiesRightPicturebox.Name = "veggiesRightPicturebox";
+            this.veggiesRightPicturebox.Size = new System.Drawing.Size(25, 25);
+            this.veggiesRightPicturebox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.veggiesRightPicturebox.TabIndex = 6;
+            this.veggiesRightPicturebox.TabStop = false;
+            this.veggiesRightPicturebox.Click += new System.EventHandler(this.VeggiesSizeImages_Click);
             // 
-            // pictureBox11
+            // veggiesMiddlePictureBox
             // 
-            this.pictureBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox11.Image = global::pizza.Properties.Resources.button_whole_selected;
-            this.pictureBox11.Location = new System.Drawing.Point(199, 177);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 6;
-            this.pictureBox11.TabStop = false;
+            this.veggiesMiddlePictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.veggiesMiddlePictureBox.Image = global::pizza.Properties.Resources.button_whole_selected;
+            this.veggiesMiddlePictureBox.Location = new System.Drawing.Point(199, 177);
+            this.veggiesMiddlePictureBox.Name = "veggiesMiddlePictureBox";
+            this.veggiesMiddlePictureBox.Size = new System.Drawing.Size(25, 25);
+            this.veggiesMiddlePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.veggiesMiddlePictureBox.TabIndex = 6;
+            this.veggiesMiddlePictureBox.TabStop = false;
+            this.veggiesMiddlePictureBox.Click += new System.EventHandler(this.VeggiesSizeImages_Click);
             // 
-            // pictureBox10
+            // veggiesLeftPicturebox
             // 
-            this.pictureBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox10.Image = global::pizza.Properties.Resources.button_left;
-            this.pictureBox10.Location = new System.Drawing.Point(168, 177);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 6;
-            this.pictureBox10.TabStop = false;
+            this.veggiesLeftPicturebox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.veggiesLeftPicturebox.Image = global::pizza.Properties.Resources.button_left;
+            this.veggiesLeftPicturebox.Location = new System.Drawing.Point(168, 177);
+            this.veggiesLeftPicturebox.Name = "veggiesLeftPicturebox";
+            this.veggiesLeftPicturebox.Size = new System.Drawing.Size(25, 25);
+            this.veggiesLeftPicturebox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.veggiesLeftPicturebox.TabIndex = 6;
+            this.veggiesLeftPicturebox.TabStop = false;
+            this.veggiesLeftPicturebox.Click += new System.EventHandler(this.VeggiesSizeImages_Click);
             // 
-            // pictureBox7
+            // meatRightPicturebox
             // 
-            this.pictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox7.Image = global::pizza.Properties.Resources.button_right;
-            this.pictureBox7.Location = new System.Drawing.Point(230, 177);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
+            this.meatRightPicturebox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.meatRightPicturebox.Image = global::pizza.Properties.Resources.button_right;
+            this.meatRightPicturebox.Location = new System.Drawing.Point(230, 177);
+            this.meatRightPicturebox.Name = "meatRightPicturebox";
+            this.meatRightPicturebox.Size = new System.Drawing.Size(25, 25);
+            this.meatRightPicturebox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.meatRightPicturebox.TabIndex = 6;
+            this.meatRightPicturebox.TabStop = false;
+            this.meatRightPicturebox.Click += new System.EventHandler(this.MeatSideImages_Click);
             // 
-            // pictureBox6
+            // meatMiddlePicturebox
             // 
-            this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox6.Image = global::pizza.Properties.Resources.button_whole_selected;
-            this.pictureBox6.Location = new System.Drawing.Point(199, 177);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
+            this.meatMiddlePicturebox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.meatMiddlePicturebox.Image = global::pizza.Properties.Resources.button_whole_selected;
+            this.meatMiddlePicturebox.Location = new System.Drawing.Point(199, 177);
+            this.meatMiddlePicturebox.Name = "meatMiddlePicturebox";
+            this.meatMiddlePicturebox.Size = new System.Drawing.Size(25, 25);
+            this.meatMiddlePicturebox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.meatMiddlePicturebox.TabIndex = 6;
+            this.meatMiddlePicturebox.TabStop = false;
+            this.meatMiddlePicturebox.Click += new System.EventHandler(this.MeatSideImages_Click);
             // 
             // meatLeftPictureBox
             // 
@@ -937,22 +999,251 @@
             this.meatLeftPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.meatLeftPictureBox.TabIndex = 6;
             this.meatLeftPictureBox.TabStop = false;
+            this.meatLeftPictureBox.Click += new System.EventHandler(this.MeatSideImages_Click);
             // 
-            // clearCartButton
+            // label12
             // 
-            this.clearCartButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.clearCartButton.BackColor = System.Drawing.Color.Transparent;
-            this.clearCartButton.FlatAppearance.BorderSize = 0;
-            this.clearCartButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.clearCartButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearCartButton.ForeColor = System.Drawing.Color.Red;
-            this.clearCartButton.Location = new System.Drawing.Point(701, 270);
-            this.clearCartButton.Name = "clearCartButton";
-            this.clearCartButton.Size = new System.Drawing.Size(209, 35);
-            this.clearCartButton.TabIndex = 3;
-            this.clearCartButton.Text = "Clear Cart";
-            this.clearCartButton.UseVisualStyleBackColor = false;
-            this.clearCartButton.Click += new System.EventHandler(this.clearCartButton_Click);
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(202, 382);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(61, 25);
+            this.label12.TabIndex = 4;
+            this.label12.Text = "$5.99";
+            // 
+            // label13
+            // 
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(513, 382);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(61, 25);
+            this.label13.TabIndex = 4;
+            this.label13.Text = "$3.99";
+            // 
+            // label14
+            // 
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(820, 382);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(61, 25);
+            this.label14.TabIndex = 4;
+            this.label14.Text = "$4.99";
+            // 
+            // label15
+            // 
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(1121, 382);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(61, 25);
+            this.label15.TabIndex = 4;
+            this.label15.Text = "$6.99";
+            // 
+            // materialLabel1
+            // 
+            this.materialLabel1.AutoSize = true;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.Location = new System.Drawing.Point(210, 42);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel1.TabIndex = 2;
+            this.materialLabel1.Text = "$1.99";
+            // 
+            // materialLabel2
+            // 
+            this.materialLabel2.AutoSize = true;
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.Location = new System.Drawing.Point(210, 72);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel2.TabIndex = 2;
+            this.materialLabel2.Text = "$2.99";
+            // 
+            // materialLabel3
+            // 
+            this.materialLabel3.AutoSize = true;
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel3.Location = new System.Drawing.Point(210, 102);
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            this.materialLabel3.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel3.TabIndex = 2;
+            this.materialLabel3.Text = "$3.99";
+            // 
+            // materialLabel4
+            // 
+            this.materialLabel4.AutoSize = true;
+            this.materialLabel4.Depth = 0;
+            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel4.Location = new System.Drawing.Point(210, 132);
+            this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel4.Name = "materialLabel4";
+            this.materialLabel4.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel4.TabIndex = 2;
+            this.materialLabel4.Text = "$4.59";
+            // 
+            // materialLabel5
+            // 
+            this.materialLabel5.AutoSize = true;
+            this.materialLabel5.Depth = 0;
+            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel5.Location = new System.Drawing.Point(210, 42);
+            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel5.Name = "materialLabel5";
+            this.materialLabel5.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel5.TabIndex = 2;
+            this.materialLabel5.Text = "$1.99";
+            // 
+            // materialLabel6
+            // 
+            this.materialLabel6.AutoSize = true;
+            this.materialLabel6.Depth = 0;
+            this.materialLabel6.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel6.Location = new System.Drawing.Point(210, 72);
+            this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel6.Name = "materialLabel6";
+            this.materialLabel6.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel6.TabIndex = 2;
+            this.materialLabel6.Text = "$0.99";
+            // 
+            // materialLabel7
+            // 
+            this.materialLabel7.AutoSize = true;
+            this.materialLabel7.Depth = 0;
+            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel7.Location = new System.Drawing.Point(210, 42);
+            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel7.Name = "materialLabel7";
+            this.materialLabel7.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel7.TabIndex = 2;
+            this.materialLabel7.Text = "$0.99";
+            // 
+            // materialLabel8
+            // 
+            this.materialLabel8.AutoSize = true;
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel8.Location = new System.Drawing.Point(210, 72);
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
+            this.materialLabel8.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel8.TabIndex = 2;
+            this.materialLabel8.Text = "$0.59";
+            // 
+            // materialLabel9
+            // 
+            this.materialLabel9.AutoSize = true;
+            this.materialLabel9.Depth = 0;
+            this.materialLabel9.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel9.Location = new System.Drawing.Point(210, 42);
+            this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel9.Name = "materialLabel9";
+            this.materialLabel9.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel9.TabIndex = 2;
+            this.materialLabel9.Text = "$2.99";
+            // 
+            // materialLabel10
+            // 
+            this.materialLabel10.AutoSize = true;
+            this.materialLabel10.Depth = 0;
+            this.materialLabel10.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel10.Location = new System.Drawing.Point(210, 72);
+            this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel10.Name = "materialLabel10";
+            this.materialLabel10.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel10.TabIndex = 2;
+            this.materialLabel10.Text = "$1.59";
+            // 
+            // materialLabel11
+            // 
+            this.materialLabel11.AutoSize = true;
+            this.materialLabel11.Depth = 0;
+            this.materialLabel11.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel11.Location = new System.Drawing.Point(210, 42);
+            this.materialLabel11.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel11.Name = "materialLabel11";
+            this.materialLabel11.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel11.TabIndex = 2;
+            this.materialLabel11.Text = "$2.59";
+            // 
+            // materialLabel12
+            // 
+            this.materialLabel12.AutoSize = true;
+            this.materialLabel12.Depth = 0;
+            this.materialLabel12.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel12.Location = new System.Drawing.Point(210, 72);
+            this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel12.Name = "materialLabel12";
+            this.materialLabel12.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel12.TabIndex = 2;
+            this.materialLabel12.Text = "$1.99";
+            // 
+            // materialLabel13
+            // 
+            this.materialLabel13.AutoSize = true;
+            this.materialLabel13.Depth = 0;
+            this.materialLabel13.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel13.Location = new System.Drawing.Point(210, 102);
+            this.materialLabel13.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel13.Name = "materialLabel13";
+            this.materialLabel13.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel13.TabIndex = 2;
+            this.materialLabel13.Text = "$1.59";
+            // 
+            // materialLabel14
+            // 
+            this.materialLabel14.AutoSize = true;
+            this.materialLabel14.Depth = 0;
+            this.materialLabel14.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel14.Location = new System.Drawing.Point(210, 102);
+            this.materialLabel14.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel14.Name = "materialLabel14";
+            this.materialLabel14.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel14.TabIndex = 2;
+            this.materialLabel14.Text = "$1.99";
+            // 
+            // materialLabel15
+            // 
+            this.materialLabel15.AutoSize = true;
+            this.materialLabel15.Depth = 0;
+            this.materialLabel15.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel15.Location = new System.Drawing.Point(210, 132);
+            this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel15.Name = "materialLabel15";
+            this.materialLabel15.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel15.TabIndex = 2;
+            this.materialLabel15.Text = "$0.99";
+            // 
+            // materialLabel16
+            // 
+            this.materialLabel16.AutoSize = true;
+            this.materialLabel16.Depth = 0;
+            this.materialLabel16.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel16.Location = new System.Drawing.Point(210, 102);
+            this.materialLabel16.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel16.Name = "materialLabel16";
+            this.materialLabel16.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel16.TabIndex = 2;
+            this.materialLabel16.Text = "$1.59";
             // 
             // PizzaPickerForm
             // 
@@ -969,8 +1260,8 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "PizzaPickerForm";
-            this.Text = "PizzaPickerForm";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Caterina\'s Pizza";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.tabControl.ResumeLayout(false);
             this.specialsTab.ResumeLayout(false);
             this.specialsTab.PerformLayout();
@@ -993,11 +1284,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.veggiesRightPicturebox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.veggiesMiddlePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.veggiesLeftPicturebox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meatRightPicturebox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meatMiddlePicturebox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.meatLeftPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1058,13 +1349,33 @@
         private MaterialSkin.Controls.MaterialRadioButton tomatoRadioButton;
         private MaterialSkin.Controls.MaterialRadioButton alfredoRadioButton;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox meatRightPicturebox;
+        private System.Windows.Forms.PictureBox meatMiddlePicturebox;
         private System.Windows.Forms.PictureBox meatLeftPictureBox;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox veggiesRightPicturebox;
+        private System.Windows.Forms.PictureBox veggiesMiddlePictureBox;
+        private System.Windows.Forms.PictureBox veggiesLeftPicturebox;
         private System.Windows.Forms.Button clearCartButton;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel4;
+        private MaterialSkin.Controls.MaterialLabel materialLabel3;
+        private MaterialSkin.Controls.MaterialLabel materialLabel2;
+        private MaterialSkin.Controls.MaterialLabel materialLabel16;
+        private MaterialSkin.Controls.MaterialLabel materialLabel12;
+        private MaterialSkin.Controls.MaterialLabel materialLabel11;
+        private MaterialSkin.Controls.MaterialLabel materialLabel13;
+        private MaterialSkin.Controls.MaterialLabel materialLabel8;
+        private MaterialSkin.Controls.MaterialLabel materialLabel7;
+        private MaterialSkin.Controls.MaterialLabel materialLabel15;
+        private MaterialSkin.Controls.MaterialLabel materialLabel14;
+        private MaterialSkin.Controls.MaterialLabel materialLabel10;
+        private MaterialSkin.Controls.MaterialLabel materialLabel9;
+        private MaterialSkin.Controls.MaterialLabel materialLabel6;
+        private MaterialSkin.Controls.MaterialLabel materialLabel5;
     }
 }
 

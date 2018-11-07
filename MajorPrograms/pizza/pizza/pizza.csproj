@@ -169,5 +169,77 @@
   <ItemGroup>
     <None Include="Custom\Crust\crust_handtossed.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\cheese_mozz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Bacon_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Bacon_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Bacon_reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Bacon_reg_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Bacon_reg_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Ham_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Ham_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Ham_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_ItalianSausage_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_ItalianSausage_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_ItalianSausage_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Mushroom_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Mushroom_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Mushroom_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Olives_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Olives_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Olives_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Onion_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Onion_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Onion_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Pepperoni_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Pepperoni_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Toppings\topping_Pepperoni_extra_R.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

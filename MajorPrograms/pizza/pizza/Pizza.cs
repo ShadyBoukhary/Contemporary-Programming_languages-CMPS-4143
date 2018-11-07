@@ -14,12 +14,17 @@ namespace pizza
             PizzaSize = Size.Medium;
         }
 
+        /* ************************************ Properties ************************************ */
+
         public Size PizzaSize { set; get; }
 
         virtual public string Name { set; get; }
         virtual public decimal TotalPrice => GetSizePrice() + GetSpecialtyPrice();
+
         public Specialty SpecialtyType { get; set; }
         public Image DefaultImage => Constants.DefaultImage;
+
+        /* ************************************ Methods ************************************ */
 
         public decimal GetSizePrice()
         {
@@ -36,17 +41,28 @@ namespace pizza
             }
         }
 
-        public Image GetImage()
+        /// <summary>
+        /// Get the Image of the specialty pizza
+        /// </summary>
+        /// <returns></returns>
+        virtual public Image GetImage()
         {
             switch (SpecialtyType)
             {
                 case Specialty.MeatLovers:
+                    Name = "Meat Lovers";
                     return Constants.MeatLoversImage;
+
                 case Specialty.CheeseLovers:
+                    Name = "Cheese Lovers";
                     return Constants.CheeseLoversImage;
+
                 case Specialty.VeggieLovers:
+                    Name = "Veggie Lovers";
                     return Constants.VeggieLoversImage;
+
                 default:
+                    Name = "Italiano";
                     return Constants.ItalianoImage;
             }
         }
@@ -66,6 +82,8 @@ namespace pizza
                     return 6.99M;
             }
         }
+
+        /* ************************************ Enums ************************************ */
 
         public enum Size
         {

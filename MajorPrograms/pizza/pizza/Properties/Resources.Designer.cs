@@ -163,6 +163,16 @@ namespace pizza.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cheese_mozz {
+            get {
+                object obj = ResourceManager.GetObject("cheese_mozz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cheese_pizza {
             get {
                 object obj = ResourceManager.GetObject("cheese-pizza", resourceCulture);
@@ -286,6 +296,246 @@ namespace pizza.Properties {
         internal static System.Drawing.Bitmap topping_Bacon_extra {
             get {
                 object obj = ResourceManager.GetObject("topping_Bacon_extra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Bacon_extra_L {
+            get {
+                object obj = ResourceManager.GetObject("topping_Bacon_extra_L", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Bacon_extra_R {
+            get {
+                object obj = ResourceManager.GetObject("topping_Bacon_extra_R", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Bacon_extra1 {
+            get {
+                object obj = ResourceManager.GetObject("topping_Bacon_extra1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Bacon_reg {
+            get {
+                object obj = ResourceManager.GetObject("topping_Bacon_reg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Bacon_reg_L {
+            get {
+                object obj = ResourceManager.GetObject("topping_Bacon_reg_L", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Bacon_reg_R {
+            get {
+                object obj = ResourceManager.GetObject("topping_Bacon_reg_R", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Ham_extra {
+            get {
+                object obj = ResourceManager.GetObject("topping_Ham_extra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Ham_extra_L {
+            get {
+                object obj = ResourceManager.GetObject("topping_Ham_extra_L", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Ham_extra_R {
+            get {
+                object obj = ResourceManager.GetObject("topping_Ham_extra_R", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_ItalianSausage_extra {
+            get {
+                object obj = ResourceManager.GetObject("topping_ItalianSausage_extra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_ItalianSausage_extra_L {
+            get {
+                object obj = ResourceManager.GetObject("topping_ItalianSausage_extra_L", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_ItalianSausage_extra_R {
+            get {
+                object obj = ResourceManager.GetObject("topping_ItalianSausage_extra_R", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Mushroom_extra {
+            get {
+                object obj = ResourceManager.GetObject("topping_Mushroom_extra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Mushroom_extra_L {
+            get {
+                object obj = ResourceManager.GetObject("topping_Mushroom_extra_L", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Mushroom_extra_R {
+            get {
+                object obj = ResourceManager.GetObject("topping_Mushroom_extra_R", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Olives_extra {
+            get {
+                object obj = ResourceManager.GetObject("topping_Olives_extra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Olives_extra_L {
+            get {
+                object obj = ResourceManager.GetObject("topping_Olives_extra_L", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Olives_extra_R {
+            get {
+                object obj = ResourceManager.GetObject("topping_Olives_extra_R", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Onion_extra {
+            get {
+                object obj = ResourceManager.GetObject("topping_Onion_extra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Onion_extra_L {
+            get {
+                object obj = ResourceManager.GetObject("topping_Onion_extra_L", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Onion_extra_R {
+            get {
+                object obj = ResourceManager.GetObject("topping_Onion_extra_R", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Pepperoni_extra {
+            get {
+                object obj = ResourceManager.GetObject("topping_Pepperoni_extra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Pepperoni_extra_L {
+            get {
+                object obj = ResourceManager.GetObject("topping_Pepperoni_extra_L", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topping_Pepperoni_extra_R {
+            get {
+                object obj = ResourceManager.GetObject("topping_Pepperoni_extra_R", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
