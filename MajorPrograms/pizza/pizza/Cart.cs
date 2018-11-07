@@ -1,21 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace pizza
 {
+    /// <summary>
+    /// Holds an array of Pizza's representing a Cart
+    /// Singleton Class
+    /// </summary>
     public class Cart
     {
+        /* ************************************ Member Data ************************************ */
+
         private List<Pizza> cart;
         private static Cart instance;
-        public static Cart Instance => instance ?? (instance = new Cart());
+        public static Cart Instance => instance ?? (instance = new Cart()); // singleton instance
+
+        /* ************************************ Properties ************************************ */
+
+        public decimal Total => SubTotal + SubTotal * 0.10M;
+        public bool IsEmpty => cart.Count > 0;
+
+        /* ************************************ Constructors ************************************ */
 
         private Cart()
         {
             cart = new List<Pizza>();
         }
+
+        /* ************************************ Methods ************************************ */
 
         public decimal SubTotal
         {
@@ -29,9 +40,6 @@ namespace pizza
             }
         }
 
-        public decimal Total => SubTotal + SubTotal * 0.10M;
-        public bool IsEmpty => cart.Count > 0;
-        
         public void AddToCart(Pizza pizza)
         {
             cart.Add(pizza);
